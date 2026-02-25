@@ -59,7 +59,6 @@ module wdrc_gain_ram #(
         if (INIT_FROM_FILE) begin
             // Note: If synthesis fails to find these files, it may
             // keep the UNITY_GAIN values or throw a warning. 
-            // Ensure files exist in project root if you rely on them.
             // Example for band 0:
             // $readmemh("wdrc_gain_lut_b0.mem", mem, 0, 1023);
         end

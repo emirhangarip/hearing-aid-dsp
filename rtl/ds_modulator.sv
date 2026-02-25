@@ -7,7 +7,7 @@ module ds_modulator #(
     input signed [DAC_BW-1:0] din,
     output reg dout
 );
-    // Correct MID_VAL calculation
+    //MID_VAL calculation
     localparam MID_VAL = 1 << (DAC_BW-1);  // 2^31 exactly
     
     // Bit width extensions

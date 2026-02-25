@@ -32,8 +32,8 @@ module tdm_wdrc_10band #(
         IDLE, 
         LOAD_X,     // Latch Input & Read RAM
         ENV_PREP,   // Abs, Compare, Select Coeffs
-        ENV_MULT,   // NEW: Multiply Only (Stage A)
-        ENV_ADD,    // NEW: Add & Saturate (Stage B)
+        ENV_MULT,   // Multiply Only (Stage A)
+        ENV_ADD,    // Add & Saturate (Stage B)
         WRITE_ENV,  // Write RAM -> Drive ROM
         READ_LUT,   // Wait for ROM Data
         MULT_GAIN,  // Gain Multiply
@@ -57,7 +57,7 @@ module tdm_wdrc_10band #(
     logic signed [23:0] abs_x, alpha_sel_reg, one_minus_sel_reg;
     logic signed [23:0] abs_x_reg, env_prev_reg;
     
-    // -- NEW: Intermediate Multiply Results --
+    // -- Intermediate Multiply Results --
     logic signed [23:0] term1_res_reg;
     logic signed [23:0] term2_res_reg;
 

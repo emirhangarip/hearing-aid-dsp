@@ -11,7 +11,7 @@ module spi_wdrc_loader #(
     input  logic                     spi_sclk,
     input  logic                     spi_cs_n,
     input  logic                     spi_mosi,
-    //output logic                     spi_miso,  // not used yet
+    //output logic                     spi_miso,  // not used for now
 
     // Write pulse to LUT RAM (synchronous to clk)
     output logic                     wr_en,

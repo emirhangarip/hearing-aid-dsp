@@ -71,10 +71,8 @@ module hearing_core #(
     );
 
     // ============================================================
-    // 3) Robust Data Capture
+    // 3) Data Capture
     // ============================================================
-    // Removed the 3-stage synchronizers. Since i2s_rx uses the same 
-    // 'clk', we must latch data immediately when 'ready' is high.
     
     reg [31:0] pcm_left_hold;
     reg [31:0] pcm_right_hold;
