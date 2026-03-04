@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "locked": true,
+  "policy": "absolute_plus_relative",
+  "clock_note": "Thresholds under '100mhz_sim_reference' were locked from 100 MHz simulation runs. '50mhz_silicon_correlated' remains a separate characterization context.",
+  "direction": {
+    "output_snr_db": "higher_is_better",
+    "output_snr_slope_db_per_db": "higher_is_better",
+    "haspi_v2": "higher_is_better",
+    "hasqi_v2": "higher_is_better",
+    "asmc": "higher_is_better",
+    "bsmc": "higher_is_better",
+    "dr_db": "higher_is_better",
+    "ecr": "lower_is_better",
+    "fes": "higher_is_better",
+    "fbr": "higher_is_better",
+    "uvr": "lower_is_better",
+    "l1_thdn_max_dbc": "lower_is_better",
+    "l1_dynamic_range_min_db": "higher_is_better"
+  },
+  "absolute_floors": {
+    "output_snr_db": -2.0,
+    "output_snr_slope_db_per_db": 0.3,
+    "haspi_v2": 0.3,
+    "hasqi_v2": 0.12,
+    "dr_db": 5.0,
+    "ecr": 1.2
+  },
+  "relative_requirements": {
+    "wdrc_vs_nalr_haspi_v2_min_delta": -0.05,
+    "wdrc_vs_nalr_hasqi_v2_min_delta": -0.05,
+    "wdrc_vs_unprocessed_output_snr_db_min_delta": -1.5
+  },
+  "thresholds": {
+    "output_snr_db": -2.0,
+    "output_snr_slope_db_per_db": 0.33422606521164977,
+    "haspi_v2": 0.3,
+    "hasqi_v2": 0.12,
+    "ecr": 1.2,
+    "dr_db": 5.0
+  },
+  "100mhz_sim_reference": {
+    "locked": true,
+    "clock_hz": 100000000,
+    "thresholds": {
+      "output_snr_db": -6.033008390882641,
+      "output_snr_slope_db_per_db": 0.33422606521164977,
+      "haspi_v2": -0.3256315276551439,
+      "hasqi_v2": -0.06310880698133056,
+      "ecr": 1.720745465569319,
+      "dr_db": 2.0189882094180494
+    }
+  },
+  "50mhz_silicon_correlated": {
+    "locked": true,
+    "clock_hz": 50000000,
+    "characterization_note": "Locked from hifi-50mhz run (OSR=1042). Characterization-only unless explicitly selected.",
+    "thresholds": {
+      "l1_thdn_max_dbc": -55.0,
+      "l1_dynamic_range_min_db": 99.0,
+      "ha4_thdn_max_dbc": -21.0
+    }
+  }
+}

@@ -1,0 +1,19 @@
+# hearing-aid-dsp verification dependencies (single source of truth)
+# Covers:
+#   1) core RTL/cocotb verification
+#   2) paper/literature objective evaluation (HASPI/HASQI, RIR generation)
+#
+# Install from repo root:
+#   python3 -m pip install -r verification/requirements.txt
+
+# Core verification stack
+cocotb>=1.8.0
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+PyYAML>=6.0
+soundfile>=0.12.1
+
+# Literature/paper metrics stack
+pyclarity>=0.1.0
+pyroomacoustics>=0.7.4

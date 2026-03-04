@@ -1,0 +1,2037 @@
+{
+  "mode": "signoff",
+  "rows": [
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.444067967806552,
+      "haspi_v2": 0.01732575944703926,
+      "hasqi_v2": 0.06339704582590247,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.7957846266548945,
+      "haspi_v2": 0.045537791626696356,
+      "hasqi_v2": 0.13036873397236115,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.144800189455931,
+      "haspi_v2": 0.156265930067185,
+      "hasqi_v2": 0.23358164350647845,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.5337649588561512,
+      "haspi_v2": 0.57255700622936,
+      "hasqi_v2": 0.30957632127637,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.2446009459903298,
+      "haspi_v2": 0.8579135098922401,
+      "hasqi_v2": 0.33839565986513376,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.356665987037088,
+      "haspi_v2": 0.17468332985301135,
+      "hasqi_v2": 0.11402010714866599,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.7158649749344157,
+      "haspi_v2": 0.3071772277942918,
+      "hasqi_v2": 0.14372390158186413,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.0828402991290818,
+      "haspi_v2": 0.5168842867800807,
+      "hasqi_v2": 0.22483018797546156,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.5492759828456546,
+      "haspi_v2": 0.7339698538109072,
+      "hasqi_v2": 0.3024918898354537,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.267146908774515,
+      "haspi_v2": 0.7797226713325967,
+      "hasqi_v2": 0.33994160104185694,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.700956737350078,
+      "haspi_v2": 0.029699490996307396,
+      "hasqi_v2": 0.045528185460974056,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.0524520357363425,
+      "haspi_v2": 0.03756784670827651,
+      "hasqi_v2": 0.09292575937126951,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.39265148094356,
+      "haspi_v2": 0.39040403270909274,
+      "hasqi_v2": 0.182082527622875,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.3074162469472037,
+      "haspi_v2": 0.6453526693560563,
+      "hasqi_v2": 0.2957928477393162,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.012666732570895,
+      "haspi_v2": 0.808942348404408,
+      "hasqi_v2": 0.3642634924912638,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.483465802782171,
+      "haspi_v2": 0.012576523080608326,
+      "hasqi_v2": 0.052517191345664245,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.8277005887281854,
+      "haspi_v2": 0.022819878058842905,
+      "hasqi_v2": 0.09020455562050438,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.1646925829881334,
+      "haspi_v2": 0.04051559890762878,
+      "hasqi_v2": 0.16380581980981726,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.5379261622700549,
+      "haspi_v2": 0.13914557431648283,
+      "hasqi_v2": 0.2543170037607678,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.237547907727268,
+      "haspi_v2": 0.8491992003134697,
+      "hasqi_v2": 0.3356407211109607,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.813617151524162,
+      "haspi_v2": 0.005515117306605027,
+      "hasqi_v2": 0.08108778035061855,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.1667908000074227,
+      "haspi_v2": 0.011591648668971733,
+      "hasqi_v2": 0.14238813176652496,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.5223318075677639,
+      "haspi_v2": 0.30681630897824247,
+      "hasqi_v2": 0.24890121377116994,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.1430974242898325,
+      "haspi_v2": 0.8675817446670383,
+      "hasqi_v2": 0.31517867212572126,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.8483950498044512,
+      "haspi_v2": 0.8528844256432754,
+      "hasqi_v2": 0.3405937425602225,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.662431618214789,
+      "haspi_v2": 0.00949055745248595,
+      "hasqi_v2": 0.02319125963964099,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.0032982518135465,
+      "haspi_v2": 0.022117495761192815,
+      "hasqi_v2": 0.05494553043193638,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.3298423139590676,
+      "haspi_v2": 0.047006445237914675,
+      "hasqi_v2": 0.17463340887686285,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.3675657179978393,
+      "haspi_v2": 0.41662172669885883,
+      "hasqi_v2": 0.2737466571761036,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.0618660209497635,
+      "haspi_v2": 0.8571236059352979,
+      "hasqi_v2": 0.3236769116453864,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.473255605045052,
+      "haspi_v2": 0.014786122646634125,
+      "hasqi_v2": 0.040370594741276675,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.8234851904244,
+      "haspi_v2": 0.024206175220256157,
+      "hasqi_v2": 0.09736438365861147,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.1532483210102054,
+      "haspi_v2": 0.0904135358721805,
+      "hasqi_v2": 0.19109955773626616,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.5357504359976752,
+      "haspi_v2": 0.7736857170064304,
+      "hasqi_v2": 0.29433240115353376,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.233565924260789,
+      "haspi_v2": 0.9462168127258441,
+      "hasqi_v2": 0.3389310510492555,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.2427729614941345,
+      "haspi_v2": 0.015321944612406779,
+      "hasqi_v2": 0.04310972294325948,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.604548197549645,
+      "haspi_v2": 0.14712488363418624,
+      "hasqi_v2": 0.11776518363126844,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.9568483882395504,
+      "haspi_v2": 0.23950170783806451,
+      "hasqi_v2": 0.19853554825452235,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.7389808577758078,
+      "haspi_v2": 0.5501082903963347,
+      "hasqi_v2": 0.271751170280016,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.4439654222341045,
+      "haspi_v2": 0.8797595513527825,
+      "hasqi_v2": 0.3217671724880745,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -5.164037882341126,
+      "haspi_v2": 0.023358151585679658,
+      "hasqi_v2": 0.08864373231260601,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.50755928622327,
+      "haspi_v2": 0.34087209598593016,
+      "hasqi_v2": 0.14972375582638872,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.8114498370096188,
+      "haspi_v2": 0.8666475082343942,
+      "hasqi_v2": 0.22075321764898528,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": -0.10257934970003565,
+      "haspi_v2": 0.8522920708412492,
+      "hasqi_v2": 0.2818105025823831,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.6054212279561382,
+      "haspi_v2": 0.7724844436901356,
+      "hasqi_v2": 0.3099906563164098,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.955062644776829,
+      "haspi_v2": 0.011617033936991662,
+      "hasqi_v2": 0.0842218035060296,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.306465050623152,
+      "haspi_v2": 0.01313886505910599,
+      "hasqi_v2": 0.12349481357410141,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.6269450686639915,
+      "haspi_v2": 0.24739960599404906,
+      "hasqi_v2": 0.19125265407590006,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.09533391108944939,
+      "haspi_v2": 0.9161527054976958,
+      "hasqi_v2": 0.2565233911651115,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.811764227503034,
+      "haspi_v2": 0.8532525079429526,
+      "hasqi_v2": 0.2969240761480914,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.612637284215623,
+      "haspi_v2": 0.010696040509371313,
+      "hasqi_v2": 0.012433127116204114,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.9642604397581716,
+      "haspi_v2": 0.05760501340377697,
+      "hasqi_v2": 0.07522850062580105,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.3107280043480638,
+      "haspi_v2": 0.4591963269857734,
+      "hasqi_v2": 0.18454399159736332,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.3627507686769339,
+      "haspi_v2": 0.7344920556057136,
+      "hasqi_v2": 0.2790333524346637,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.0735505013995157,
+      "haspi_v2": 0.7455970715962735,
+      "hasqi_v2": 0.32525982786137414,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.496407021796968,
+      "haspi_v2": 0.02838692576490931,
+      "hasqi_v2": 0.022773112195757377,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.8498714331890533,
+      "haspi_v2": 0.013500434490839068,
+      "hasqi_v2": 0.044829240049618226,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.2003472802968764,
+      "haspi_v2": 0.03995802438372126,
+      "hasqi_v2": 0.11684487387331136,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.45494657622638535,
+      "haspi_v2": 0.7008381214730319,
+      "hasqi_v2": 0.2360166260562626,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.1413275077605185,
+      "haspi_v2": 0.8604784851114482,
+      "hasqi_v2": 0.313019918610139,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.444127066233393,
+      "haspi_v2": 0.007910512147659105,
+      "hasqi_v2": 0.015445132891292583,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.7993931295911616,
+      "haspi_v2": 0.008324717644984665,
+      "hasqi_v2": 0.06329186882417141,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.1350287626116526,
+      "haspi_v2": 0.044101939369356934,
+      "hasqi_v2": 0.1682796031290127,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.5678013562134692,
+      "haspi_v2": 0.47906459323487033,
+      "hasqi_v2": 0.24834659677199852,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.2698719889142103,
+      "haspi_v2": 0.675017557523096,
+      "hasqi_v2": 0.3048986870944872,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.171041037628079,
+      "haspi_v2": 0.00502600908411608,
+      "hasqi_v2": 0.08322655314195752,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.5226248609162405,
+      "haspi_v2": 0.005358000783682155,
+      "hasqi_v2": 0.1067631701650112,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.8488497481625925,
+      "haspi_v2": 0.03128247416073531,
+      "hasqi_v2": 0.173859280580691,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.836483705982276,
+      "haspi_v2": 0.44628432773691995,
+      "hasqi_v2": 0.2674065534563193,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.55123306337355,
+      "haspi_v2": 0.7760206538662034,
+      "hasqi_v2": 0.3171029161219479,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -5.55126746955335,
+      "haspi_v2": 0.11547000834392412,
+      "hasqi_v2": 0.050281169024818106,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.895201864740678,
+      "haspi_v2": 0.4993595469866464,
+      "hasqi_v2": 0.08134139012350283,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -2.219937787244277,
+      "haspi_v2": 0.7888044051988844,
+      "hasqi_v2": 0.17718865147691193,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": -0.5188632065053874,
+      "haspi_v2": 0.8468454780083813,
+      "hasqi_v2": 0.2549914332990061,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.181736310405212,
+      "haspi_v2": 0.9024718257928195,
+      "hasqi_v2": 0.3139677417391624,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -5.4142454691302095,
+      "haspi_v2": 0.026480009372206497,
+      "hasqi_v2": 0.08569430444452944,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.772450488505323,
+      "haspi_v2": 0.08569270189979061,
+      "hasqi_v2": 0.13552127398901154,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -2.122355037289269,
+      "haspi_v2": 0.48243353170642556,
+      "hasqi_v2": 0.17792609117002672,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": -0.4546820531455876,
+      "haspi_v2": 0.7334412131602613,
+      "hasqi_v2": 0.26305427262348446,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.2593455556603845,
+      "haspi_v2": 0.7687381378270058,
+      "hasqi_v2": 0.328111659682961,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.219630885589815,
+      "haspi_v2": 0.08354914568390846,
+      "hasqi_v2": 0.04315779939195349,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.5793691413757958,
+      "haspi_v2": 0.17214056491282495,
+      "hasqi_v2": 0.11039101781104702,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.9290524261691689,
+      "haspi_v2": 0.6368237830154827,
+      "hasqi_v2": 0.24355308024414435,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.7414304031471226,
+      "haspi_v2": 0.9320826860236948,
+      "hasqi_v2": 0.36353356887829325,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.4536615051001913,
+      "haspi_v2": 0.9277290981652134,
+      "hasqi_v2": 0.4163768255258702,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.101218054547643,
+      "haspi_v2": 0.20922170597569237,
+      "hasqi_v2": 0.07037287682851882,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.4264686341376627,
+      "haspi_v2": 0.3625486677699448,
+      "hasqi_v2": 0.10825714411595502,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.7371905482133934,
+      "haspi_v2": 0.7308509985186731,
+      "hasqi_v2": 0.23167560408267565,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.9504615658699047,
+      "haspi_v2": 0.897264817173404,
+      "hasqi_v2": 0.3389266045078789,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.641898238367739,
+      "haspi_v2": 0.9352052900337806,
+      "hasqi_v2": 0.39977904810035053,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.13464784572798,
+      "haspi_v2": 0.017657327155033646,
+      "hasqi_v2": 0.011693362983240236,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.4935736181218378,
+      "haspi_v2": 0.036728112818650016,
+      "hasqi_v2": 0.05414438800324689,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.8331808556883002,
+      "haspi_v2": 0.5849645196980123,
+      "hasqi_v2": 0.16666483647780436,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.8556032832670619,
+      "haspi_v2": 0.8612231353546297,
+      "hasqi_v2": 0.2886372039920836,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.5637865705412772,
+      "haspi_v2": 0.8924423797755304,
+      "hasqi_v2": 0.3612209902502924,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -3.964999641287808,
+      "haspi_v2": 0.004024759658100067,
+      "hasqi_v2": 0.012198545560218805,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.316154674055599,
+      "haspi_v2": 0.02608256288046447,
+      "hasqi_v2": 0.04677978526645391,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.6507682151051299,
+      "haspi_v2": 0.24462154642643733,
+      "hasqi_v2": 0.1747240031108432,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 1.0316574553243536,
+      "haspi_v2": 0.727565259286812,
+      "hasqi_v2": 0.3096410152386164,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.7416357132558873,
+      "haspi_v2": 0.87826724217797,
+      "hasqi_v2": 0.3745072996494243,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.304799692544071,
+      "haspi_v2": 0.07677966837543335,
+      "hasqi_v2": 0.041834445360053554,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.661587925401378,
+      "haspi_v2": 0.11615522991356958,
+      "hasqi_v2": 0.06839072332383477,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.0144489582484095,
+      "haspi_v2": 0.6519045038003082,
+      "hasqi_v2": 0.17558018293570088,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.647803044790371,
+      "haspi_v2": 0.8278492020688342,
+      "hasqi_v2": 0.2700791567451281,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.3484311551912236,
+      "haspi_v2": 0.9423604334012318,
+      "hasqi_v2": 0.30945601431255076,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.16256781493641,
+      "haspi_v2": 0.018779484679350388,
+      "hasqi_v2": 0.03765755964073899,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.524912143462606,
+      "haspi_v2": 0.03417171860770754,
+      "hasqi_v2": 0.06234314902544146,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.8726518370968175,
+      "haspi_v2": 0.1254661867263567,
+      "hasqi_v2": 0.14259827650260912,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.7873509536614429,
+      "haspi_v2": 0.7156804362148923,
+      "hasqi_v2": 0.24652229294343542,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.4606511174346837,
+      "haspi_v2": 0.9150222957495859,
+      "hasqi_v2": 0.3133208988989489,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.805978263014989,
+      "haspi_v2": 0.04700320994478917,
+      "hasqi_v2": 0.08730171919691408,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.1686612826792713,
+      "haspi_v2": 0.20274670957499225,
+      "hasqi_v2": 0.14606688098698342,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.5261295873361398,
+      "haspi_v2": 0.7597397498120543,
+      "hasqi_v2": 0.24187376648123016,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.14574425080910974,
+      "haspi_v2": 0.8994949428284158,
+      "hasqi_v2": 0.3119548160188812,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.8499337348597569,
+      "haspi_v2": 0.9718619814865311,
+      "hasqi_v2": 0.34611010030848754,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.64311232945071,
+      "haspi_v2": 0.11933171277217405,
+      "hasqi_v2": 0.05417015204295764,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.0091346063782103,
+      "haspi_v2": 0.06448674762164631,
+      "hasqi_v2": 0.09828502299370064,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.3684458575612954,
+      "haspi_v2": 0.6123184874768677,
+      "hasqi_v2": 0.21719966826726952,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.29715201916700895,
+      "haspi_v2": 0.8984138406759882,
+      "hasqi_v2": 0.30968297479041235,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.0022447401397274,
+      "haspi_v2": 0.9586626551595914,
+      "hasqi_v2": 0.34355429724302716,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.361070342544164,
+      "haspi_v2": 0.00851798938384732,
+      "hasqi_v2": 0.016054649498264607,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.726200883402394,
+      "haspi_v2": 0.023173798832653632,
+      "hasqi_v2": 0.05991168081170827,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.0832343843873011,
+      "haspi_v2": 0.1423900783681611,
+      "hasqi_v2": 0.1817045041546399,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.5781944669041431,
+      "haspi_v2": 0.7846165772983329,
+      "hasqi_v2": 0.28195467424559667,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.2759405113678506,
+      "haspi_v2": 0.9158427468796683,
+      "hasqi_v2": 0.32817405054521803,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.167634883101689,
+      "haspi_v2": 0.005470931511119171,
+      "hasqi_v2": 0.028952011506194055,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.537801287691892,
+      "haspi_v2": 0.01040923517434087,
+      "hasqi_v2": 0.03344744154806497,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.9077058796164829,
+      "haspi_v2": 0.03247562348135976,
+      "hasqi_v2": 0.12665662898816,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.7291919389187334,
+      "haspi_v2": 0.2882354593953043,
+      "hasqi_v2": 0.242217090675862,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.3968854115270357,
+      "haspi_v2": 0.7689289996752405,
+      "hasqi_v2": 0.3088060090955949,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.183274913028408,
+      "haspi_v2": 0.008996786861076158,
+      "hasqi_v2": 0.00848419748173973,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.5500155576202914,
+      "haspi_v2": 0.06379652650040674,
+      "hasqi_v2": 0.04754049348919936,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.9143307320474415,
+      "haspi_v2": 0.26491677815975323,
+      "hasqi_v2": 0.1493196297842382,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.745770520852373,
+      "haspi_v2": 0.9376859345612971,
+      "hasqi_v2": 0.2846825556341242,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.4514017444368914,
+      "haspi_v2": 0.9879941951356858,
+      "hasqi_v2": 0.37830132343421974,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -3.995854368312428,
+      "haspi_v2": 0.17032705495442427,
+      "hasqi_v2": 0.04481279671441233,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.3552079260022576,
+      "haspi_v2": 0.23230778309421196,
+      "hasqi_v2": 0.0706715350459989,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.700586765411748,
+      "haspi_v2": 0.7974860508680183,
+      "hasqi_v2": 0.1645077439756364,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.9771670153928347,
+      "haspi_v2": 0.936012359316686,
+      "hasqi_v2": 0.2990554117088146,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.68344696510559,
+      "haspi_v2": 0.969189873290489,
+      "hasqi_v2": 0.3807397141108195,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -5.061589402017815,
+      "haspi_v2": 0.019467850706807777,
+      "hasqi_v2": 0.034619777933144,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.4182789244452003,
+      "haspi_v2": 0.020563540599132363,
+      "hasqi_v2": 0.07117349934257385,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.7710363571730305,
+      "haspi_v2": 0.03808885372181594,
+      "hasqi_v2": 0.10977331212784253,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": -0.11957292997023339,
+      "haspi_v2": 0.4374897590919949,
+      "hasqi_v2": 0.20347402872486034,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.5811533587957152,
+      "haspi_v2": 0.7553479092130286,
+      "hasqi_v2": 0.26406291426825124,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.815599354124948,
+      "haspi_v2": 0.010625196221818874,
+      "hasqi_v2": 0.060572864508038095,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.1852633277235154,
+      "haspi_v2": 0.022986487935921455,
+      "hasqi_v2": 0.07691138358676397,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.5465913818051122,
+      "haspi_v2": 0.04659341879958808,
+      "hasqi_v2": 0.12049183585073826,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.10393596562570316,
+      "haspi_v2": 0.3225198575454568,
+      "hasqi_v2": 0.17487298408316976,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.8250149104696756,
+      "haspi_v2": 0.8542134278699263,
+      "hasqi_v2": 0.22204977604440929,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.612157303480662,
+      "haspi_v2": 0.021224561170635342,
+      "hasqi_v2": 0.051991055798514624,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.9687803020057038,
+      "haspi_v2": 0.024492692676462414,
+      "hasqi_v2": 0.08008787150761364,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.3097710065175119,
+      "haspi_v2": 0.3659148972386634,
+      "hasqi_v2": 0.1637241042188573,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.38349255946077215,
+      "haspi_v2": 0.9065956929240035,
+      "hasqi_v2": 0.22667528198613024,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.09744129238773,
+      "haspi_v2": 0.941865741719249,
+      "hasqi_v2": 0.25889278097609714,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.286970900202401,
+      "haspi_v2": 0.006375849317136858,
+      "hasqi_v2": 0.016262812183581922,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.639337097435652,
+      "haspi_v2": 0.008788931765305642,
+      "hasqi_v2": 0.05667737195206414,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.9965024951111716,
+      "haspi_v2": 0.05271157579969408,
+      "hasqi_v2": 0.13000927187836803,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.6533028904291556,
+      "haspi_v2": 0.4212248698535167,
+      "hasqi_v2": 0.20644063099334137,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.38382659222469,
+      "haspi_v2": 0.828772749407021,
+      "hasqi_v2": 0.2541467098321813,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.761873306215038,
+      "haspi_v2": 0.019933437041748065,
+      "hasqi_v2": 0.04017269171741173,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.116669917873745,
+      "haspi_v2": 0.013976104032411757,
+      "hasqi_v2": 0.08999728925842788,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.4683037559810446,
+      "haspi_v2": 0.29327380661492686,
+      "hasqi_v2": 0.16904928289660412,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.21533644763813853,
+      "haspi_v2": 0.6829303575133497,
+      "hasqi_v2": 0.24107754895016098,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.924930307589114,
+      "haspi_v2": 0.8076159353384142,
+      "hasqi_v2": 0.28446605990485774,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.546479220230893,
+      "haspi_v2": 0.08564254797745663,
+      "hasqi_v2": 0.047977415958417424,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.8770644945392836,
+      "haspi_v2": 0.1865274922261631,
+      "hasqi_v2": 0.04973754282741702,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.2012988769349588,
+      "haspi_v2": 0.17125549158270087,
+      "hasqi_v2": 0.07743457172891495,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.4928892416947678,
+      "haspi_v2": 0.5417701887059081,
+      "hasqi_v2": 0.151275986236087,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.1911667320536106,
+      "haspi_v2": 0.7668302182365442,
+      "hasqi_v2": 0.24279853434342316,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.742780706184184,
+      "haspi_v2": 0.011156574831127001,
+      "hasqi_v2": 0.03207088346468074,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.096122177003692,
+      "haspi_v2": 0.04398132506924291,
+      "hasqi_v2": 0.07468543460736636,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.447081377934723,
+      "haspi_v2": 0.5934615662899283,
+      "hasqi_v2": 0.21082122901917433,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.23599971073260842,
+      "haspi_v2": 0.7440297812050323,
+      "hasqi_v2": 0.31882803160397366,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.946885004257699,
+      "haspi_v2": 0.8382973033178363,
+      "hasqi_v2": 0.368542958032702,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.436877614667703,
+      "haspi_v2": 0.01765121718034684,
+      "hasqi_v2": 0.04646059980978404,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.7723932156794366,
+      "haspi_v2": 0.07826398924398263,
+      "hasqi_v2": 0.11166252501649161,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.086774150130539,
+      "haspi_v2": 0.09601296647302737,
+      "hasqi_v2": 0.18624317520790346,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.6080279163290142,
+      "haspi_v2": 0.6342560564296577,
+      "hasqi_v2": 0.27690639049818555,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.300991504720592,
+      "haspi_v2": 0.7552305532757417,
+      "hasqi_v2": 0.32541075215477944,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -5.320387180051354,
+      "haspi_v2": 0.009025286842028813,
+      "hasqi_v2": 0.07982183724947231,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.675570468112414,
+      "haspi_v2": 0.43871873521344046,
+      "hasqi_v2": 0.13138229002732818,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -2.0250435007689345,
+      "haspi_v2": 0.6544167383717062,
+      "hasqi_v2": 0.2587848144552567,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": -0.3027124983619447,
+      "haspi_v2": 0.7177188945294986,
+      "hasqi_v2": 0.34223800995454856,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.4094484082318812,
+      "haspi_v2": 0.6987837049275643,
+      "hasqi_v2": 0.3828659605454913,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.984380822793908,
+      "haspi_v2": 0.139467306352219,
+      "hasqi_v2": 0.013892977495924901,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.3503600095431754,
+      "haspi_v2": 0.04469895179580454,
+      "hasqi_v2": 0.04606833966961746,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.6708193749076292,
+      "haspi_v2": 0.3841223012077276,
+      "hasqi_v2": 0.12934362719284492,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.050939262847362804,
+      "haspi_v2": 0.7188520041025639,
+      "hasqi_v2": 0.2508664708244267,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.7724625054039604,
+      "haspi_v2": 0.7005940522749412,
+      "hasqi_v2": 0.32969105239713986,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.923182887623417,
+      "haspi_v2": 0.01080390281757069,
+      "hasqi_v2": 0.08198035004495459,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.2883010100491843,
+      "haspi_v2": 0.033792017744474254,
+      "hasqi_v2": 0.12449728937577349,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.6400921874332408,
+      "haspi_v2": 0.1691147951248958,
+      "hasqi_v2": 0.22334436218281722,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.03944200688418973,
+      "haspi_v2": 0.6211054661317887,
+      "hasqi_v2": 0.30223558310794507,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.75105731074263,
+      "haspi_v2": 0.8475231200177629,
+      "hasqi_v2": 0.34060929805315865,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.679426839489859,
+      "haspi_v2": 0.13652455356056306,
+      "hasqi_v2": 0.05385396921619496,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.025624369321392,
+      "haspi_v2": 0.33404233342242273,
+      "hasqi_v2": 0.0836560153135841,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.3561652516064222,
+      "haspi_v2": 0.5519797590226937,
+      "hasqi_v2": 0.15916003173892282,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.3408958325365518,
+      "haspi_v2": 0.8506235511911651,
+      "hasqi_v2": 0.26366254389530547,
+      "haspi_backend": "clarity"
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.0398762360423546,
+      "haspi_v2": 0.9092836057947788,
+      "hasqi_v2": 0.339354441585352,
+      "haspi_backend": "clarity"
+    }
+  ],
+  "summary": {
+    "haspi_v2": {
+      "mean": 0.407096874590128,
+      "std": 0.35722428138357853,
+      "n": 200.0
+    },
+    "hasqi_v2": {
+      "mean": 0.18326422244907561,
+      "std": 0.11214852744640519,
+      "n": 200.0
+    }
+  },
+  "proposed_thresholds": {
+    "haspi_v2": -0.30735168817702907,
+    "hasqi_v2": -0.04103283244373476
+  },
+  "comparison_source": "verification/reports/paper/baseline_comparison.json",
+  "comparison_methods": [
+    "unprocessed",
+    "nalr",
+    "wdrc_proxy"
+  ],
+  "plot": {
+    "saved": true,
+    "paths": {
+      "pdf": "/home/emirhan/Desktop/projects/hearing-aid-dsp/verification/reports/paper/fig8_haspi_hasqi.pdf",
+      "png": "/home/emirhan/Desktop/projects/hearing-aid-dsp/verification/reports/paper/fig8_haspi_hasqi.png"
+    },
+    "quality_warnings": [
+      "text overlap detected"
+    ]
+  }
+}

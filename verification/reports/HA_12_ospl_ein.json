@@ -1,0 +1,44 @@
+{
+  "clock_hz": 100000000,
+  "clock_context": "audio-domain",
+  "classification_note": "Measured from internal PCM (u_tdm_core.audio_out), not from PDM bitstream. Not a silicon-correlated PDM metric. For PDM-path EIN, a separate pdm-decimation variant is required.",
+  "ospl90_input_dbfs": -0.5,
+  "ospl90_rows": [
+    {
+      "freq_hz": 200.0,
+      "input_dbfs": -0.5,
+      "output_dbfs": -15.283998628926586
+    },
+    {
+      "freq_hz": 500.0,
+      "input_dbfs": -0.5,
+      "output_dbfs": -14.88931624341419
+    },
+    {
+      "freq_hz": 1000.0,
+      "input_dbfs": -0.5,
+      "output_dbfs": -9.442095687874213
+    },
+    {
+      "freq_hz": 2000.0,
+      "input_dbfs": -0.5,
+      "output_dbfs": -12.841029099870731
+    },
+    {
+      "freq_hz": 4000.0,
+      "input_dbfs": -0.5,
+      "output_dbfs": -14.959453042390285
+    },
+    {
+      "freq_hz": 6000.0,
+      "input_dbfs": -0.5,
+      "output_dbfs": -10.344982232807924
+    }
+  ],
+  "ospl90_range_db": 5.841902941052373,
+  "ospl90_range_limit_db": 20.0,
+  "ein_output_noise_dbfs": -200.0,
+  "ein_max_gain_db": 18.06179870440008,
+  "ein_input_referred_dbfs": -218.06179870440008,
+  "ein_limit_dbfs": -70.0
+}

@@ -1,0 +1,24 @@
+{
+  "figures": [
+    "verification/reports/paper/fig1_system_layers.pdf",
+    "verification/reports/paper/fig2_dsm_thdn_sweep.pdf",
+    "verification/reports/paper/fig3_dsm_imd_summary.pdf",
+    "verification/reports/paper/fig4_filterbank_response.pdf",
+    "verification/reports/paper/fig5_wdrc_io_curves.pdf",
+    "verification/reports/paper/fig6_attack_release_tau.pdf",
+    "verification/reports/paper/fig7_output_snr_reverb.pdf",
+    "verification/reports/paper/fig7_output_snr_sweep.pdf",
+    "verification/reports/paper/fig8_haspi_hasqi.pdf",
+    "verification/reports/paper/fig8_modulation_metrics.pdf",
+    "verification/reports/paper/fig1_system_layers.png",
+    "verification/reports/paper/fig2_dsm_thdn_sweep.png",
+    "verification/reports/paper/fig3_dsm_imd_summary.png",
+    "verification/reports/paper/fig4_filterbank_response.png",
+    "verification/reports/paper/fig5_wdrc_io_curves.png",
+    "verification/reports/paper/fig6_attack_release_tau.png",
+    "verification/reports/paper/fig7_output_snr_reverb.png",
+    "verification/reports/paper/fig7_output_snr_sweep.png",
+    "verification/reports/paper/fig8_haspi_hasqi.png",
+    "verification/reports/paper/fig8_modulation_metrics.png"
+  ]
+}

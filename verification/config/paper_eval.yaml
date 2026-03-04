@@ -1,0 +1,50 @@
+{
+  "paper": {
+    "title": "Authority-Aligned Paper Validation",
+    "positioning": "dsm_ha_co_design",
+    "evidence_scope": "objective_sim_only",
+    "figure_budget": 8,
+    "claim_boundary": "no_clinical_efficacy"
+  },
+  "random_seed": 20260227,
+  "evaluation": {
+    "utterance_count": 20,
+    "input_snr_db": [-10, -5, 0, 5, 10],
+    "noise_types": ["speech_shaped", "babble"],
+    "rt60_s": [0.0, 0.3, 0.6],
+    "mode_env_var": "PAPER_MODE"
+  },
+  "data": {
+    "root_dir": "verification/data",
+    "librispeech": {
+      "split": "test-clean",
+      "url": "https://www.openslr.org/resources/12/test-clean.tar.gz",
+      "archive_sha256": "",
+      "lock_manifest": "verification/config/librispeech_subset.lock.json",
+      "auto_select_first_n": 20,
+      "utterance_ids": []
+    },
+    "rirs": {
+      "out_dir": "verification/data/rirs",
+      "sample_rate_hz": 48000,
+      "room_dim_m": [6.0, 5.0, 3.0],
+      "source_pos_m": [2.0, 2.0, 1.5],
+      "mic_pos_m": [4.0, 3.0, 1.5],
+      "max_order": 12
+    }
+  },
+  "metrics": {
+    "haspi_hasqi": {
+      "enabled": true,
+      "require_pyclarity": true,
+      "audiogram": {
+        "freqs_hz": [250, 500, 1000, 2000, 4000, 6000],
+        "loss_db_hl": [25, 25, 30, 40, 55, 60]
+      }
+    }
+  },
+  "gating": {
+    "default_mode": "collect",
+    "min_conditions_for_gate": 5
+  }
+}

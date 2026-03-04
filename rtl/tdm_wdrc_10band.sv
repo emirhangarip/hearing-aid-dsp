@@ -78,7 +78,7 @@ module tdm_wdrc_10band #(
         .BANDS     (10),
         .ADDR_WIDTH(10),
         .DATA_WIDTH(24),
-        .INIT_FROM_FILE(1'b0)
+        .INIT_FROM_FILE(1'b1)
     ) u_wdrc_gain_ram (
         .clk     (clk),
         .rd_addr (lut_addr_d),

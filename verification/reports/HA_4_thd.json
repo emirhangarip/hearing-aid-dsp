@@ -1,0 +1,76 @@
+{
+  "clock_hz": 100000000,
+  "clock_context": "simulation-reference",
+  "mode": "SPEC",
+  "frequencies_hz": [
+    500.0,
+    1000.0,
+    2000.0,
+    4000.0
+  ],
+  "thd_n_limit_db": -26.0,
+  "gain_error_limit_db": 1.5,
+  "dc_limit_fs": 0.005,
+  "results": [
+    {
+      "freq_hz": 500.0,
+      "ref_input_dbfs": -60.0,
+      "ref_output_dbfs": -48.26012153041176,
+      "ref_gain_db": 11.739878469588241,
+      "input_dbfs": -40.0,
+      "output_dbfs": -32.04017414807501,
+      "expected_out_dbfs": -28.26012153041176,
+      "gain_error_db": 3.7800526176632516,
+      "thd_n_db": -28.455989285829723,
+      "dc_offset_fs": 0.0011959076862506403,
+      "detected_fund_hz": 500.0,
+      "fund_error_hz": 0.0,
+      "fft_bin_hz": 19.23076923076923
+    },
+    {
+      "freq_hz": 1000.0,
+      "ref_input_dbfs": -60.0,
+      "ref_output_dbfs": -52.73125258092434,
+      "ref_gain_db": 7.268747419075659,
+      "input_dbfs": -40.0,
+      "output_dbfs": -32.759030782743096,
+      "expected_out_dbfs": -32.73125258092434,
+      "gain_error_db": 0.02777820181875512,
+      "thd_n_db": -36.20040200331232,
+      "dc_offset_fs": 0.0015222641330173252,
+      "detected_fund_hz": 1000.0,
+      "fund_error_hz": 0.0,
+      "fft_bin_hz": 19.23076923076923
+    },
+    {
+      "freq_hz": 2000.0,
+      "ref_input_dbfs": -60.0,
+      "ref_output_dbfs": -47.82902535250736,
+      "ref_gain_db": 12.170974647492642,
+      "input_dbfs": -40.0,
+      "output_dbfs": -31.16113839407489,
+      "expected_out_dbfs": -27.829025352507358,
+      "gain_error_db": 3.3321130415675313,
+      "thd_n_db": -30.942729843343816,
+      "dc_offset_fs": 0.002634982252946836,
+      "detected_fund_hz": 2000.0,
+      "fund_error_hz": 0.0,
+      "fft_bin_hz": 19.047619047619047
+    },
+    {
+      "freq_hz": 4000.0,
+      "ref_input_dbfs": -60.0,
+      "ref_output_dbfs": -55.89788497605747,
+      "ref_gain_db": 4.102115023942531,
+      "input_dbfs": -40.0,
+      "output_dbfs": -35.64792363049125,
+      "expected_out_dbfs": -35.89788497605747,
+      "gain_error_db": 0.24996134556621996,
+      "thd_n_db": -32.51557779262372,
+      "dc_offset_fs": 0.0028424538882197985,
+      "detected_fund_hz": 4000.0,
+      "fund_error_hz": 0.0,
+      "fft_bin_hz": 18.95734597156398
+    }
+  ]
+}

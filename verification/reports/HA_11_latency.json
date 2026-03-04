@@ -1,0 +1,13 @@
+{
+  "clock_hz": 100000000,
+  "clock_context": "audio-domain",
+  "pipeline_delay_samples": 51,
+  "latency_ms": 1.0625,
+  "latency_us": 1062.5,
+  "analytical_latency_us": 1041.5,
+  "fs_audio_hz": 48000,
+  "impulse_level_dbfs": -6.0,
+  "noise_threshold": 0.001,
+  "ansi_limit_ms": 20.0,
+  "pass": true
+}

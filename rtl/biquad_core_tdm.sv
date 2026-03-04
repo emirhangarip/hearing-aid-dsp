@@ -19,8 +19,8 @@ module biquad_core_tdm #(
     input  logic signed [23:0] y_z1,      // y[n-1]
     input  logic signed [23:0] y_z2,      // y[n-2]
     
-    // Coefficients (Q2.22)
-    input  logic signed [23:0] b0, b1, b2, a1, a2,
+    // Coefficients (Q2.30)
+    input  logic signed [31:0] b0, b1, b2, a1, a2,
     
     // Output
     output logic signed [23:0] y_out      // y[n]
@@ -29,8 +29,8 @@ module biquad_core_tdm #(
     // ------------------------------------------------------------------
     // Stage 1: Multiplication (DSP Inference)
     // ------------------------------------------------------------------
-    // Q1.23 * Q2.22 = Q3.45 (48-bit)
-    logic signed [47:0] p_b0, p_b1, p_b2, p_a1, p_a2;
+    // Q1.23 * Q2.30 = Q3.53 (56-bit)
+    logic signed [55:0] p_b0, p_b1, p_b2, p_a1, p_a2;
     
     always_ff @(posedge clk or negedge rst_n) begin
         if (!rst_n) begin
@@ -51,9 +51,10 @@ module biquad_core_tdm #(
     // ------------------------------------------------------------------
     // Stage 2: Accumulation & Saturation
     // ------------------------------------------------------------------
-    logic signed [47:0] acc_comb;
-    logic signed [47:0] prod_b0_mux, prod_b1_mux, prod_b2_mux;
-    logic signed [47:0] prod_a1_mux, prod_a2_mux;
+    // Sum headroom for five 56-bit products.
+    logic signed [58:0] acc_comb;
+    logic signed [55:0] prod_b0_mux, prod_b1_mux, prod_b2_mux;
+    logic signed [55:0] prod_a1_mux, prod_a2_mux;
     
     always_comb begin
         // Mux between registered products or direct multiplication
@@ -70,25 +71,37 @@ module biquad_core_tdm #(
         end
 
         // Summation: Direct Form I
-        acc_comb = (prod_b0_mux + prod_b1_mux + prod_b2_mux) - (prod_a1_mux + prod_a2_mux);
+        acc_comb = $signed({{3{prod_b0_mux[55]}}, prod_b0_mux})
+                 + $signed({{3{prod_b1_mux[55]}}, prod_b1_mux})
+                 + $signed({{3{prod_b2_mux[55]}}, prod_b2_mux})
+                 - $signed({{3{prod_a1_mux[55]}}, prod_a1_mux})
+                 - $signed({{3{prod_a2_mux[55]}}, prod_a2_mux});
     end
 
     // ------------------------------------------------------------------
     // Stage 3: Shift & Saturate (Registered Output)
     // ------------------------------------------------------------------
-    localparam signed [47:0] MAX_POS = 48'sd8388607;
-    localparam signed [47:0] MAX_NEG = -48'sd8388608;
+    localparam int COEFF_FRAC = 30;
+    localparam signed [58:0] MAX_POS = 59'sd8388607;
+    localparam signed [58:0] MAX_NEG = -59'sd8388608;
     
-    logic signed [47:0] y_shifted;
+    logic signed [58:0] acc_rounded;
+    logic signed [58:0] y_shifted;
     
     always_ff @(posedge clk or negedge rst_n) begin
         if (!rst_n) begin
             y_out <= '0;
         end else if (en) begin
-            // 1. Shift (Truncate)
-            y_shifted = acc_comb >>> 22;
+            // 1. Symmetric rounding to nearest before down-scaling to Q1.23.
+            if (acc_comb >= 0)
+                acc_rounded = acc_comb + (59'sd1 <<< (COEFF_FRAC - 1));
+            else
+                acc_rounded = acc_comb - (59'sd1 <<< (COEFF_FRAC - 1));
 
-            // 2. Saturate
+            // 2. Shift
+            y_shifted = acc_rounded >>> COEFF_FRAC;
+
+            // 3. Saturate
             if (y_shifted > MAX_POS) 
                 y_out <= 24'sd8388607;
             else if (y_shifted < MAX_NEG) 

@@ -1,0 +1,570 @@
+{
+  "generated_utc": "2026-03-04T20:57:18.567117+00:00",
+  "matrix": {
+    "utterances": 3,
+    "noise_types": [
+      "speech_shaped",
+      "babble"
+    ],
+    "input_snr_db": [
+      -5.0,
+      0.0,
+      5.0
+    ],
+    "allow_partial_matrix": false,
+    "auto_speech_window": true,
+    "start_seconds": 0.0,
+    "max_seconds": 0.4,
+    "expected_cases": 18,
+    "actual_cases": 18,
+    "missing_cases": 0,
+    "missing_case_examples": [],
+    "anechoic_only": true
+  },
+  "rtl_manifest": "verification/reports/paper/proxy_rtl_capture_manifest.json",
+  "criteria": {
+    "haspi_v2": {
+      "bias_abs_max": 0.05,
+      "mae_max": 0.07,
+      "spearman_rho_min": 0.85
+    },
+    "hasqi_v2": {
+      "bias_abs_max": 0.05,
+      "mae_max": 0.07,
+      "spearman_rho_min": 0.85
+    },
+    "output_snr_db": {
+      "bias_abs_max": 1.0,
+      "mae_max": 1.5,
+      "spearman_rho_min": 0.85
+    }
+  },
+  "summary": {
+    "overall_pass": false,
+    "metrics": {
+      "haspi_v2": {
+        "stats": {
+          "n": 18.0,
+          "bias": 0.010164302496926712,
+          "mae": 0.08482155080098078,
+          "spearman_rho": 0.9298245614035088
+        },
+        "acceptance": {
+          "bias_abs_max": 0.05,
+          "mae_max": 0.07,
+          "spearman_rho_min": 0.85
+        },
+        "pass": false,
+        "errors": [
+          "haspi_v2: MAE=0.0848 > 0.0700"
+        ]
+      },
+      "hasqi_v2": {
+        "stats": {
+          "n": 18.0,
+          "bias": 0.016839621133355836,
+          "mae": 0.02644166636521363,
+          "spearman_rho": 0.9277605779153767
+        },
+        "acceptance": {
+          "bias_abs_max": 0.05,
+          "mae_max": 0.07,
+          "spearman_rho_min": 0.85
+        },
+        "pass": true,
+        "errors": []
+      },
+      "output_snr_db": {
+        "stats": {
+          "n": 18.0,
+          "bias": 0.7008332528832297,
+          "mae": 0.8837922366828991,
+          "spearman_rho": 0.8472652218782251
+        },
+        "acceptance": {
+          "bias_abs_max": 1.0,
+          "mae_max": 1.5,
+          "spearman_rho_min": 0.85
+        },
+        "pass": false,
+        "errors": [
+          "output_snr_db: Spearman rho=0.8473 < 0.8500"
+        ]
+      }
+    },
+    "failure_messages": [
+      "haspi_v2: MAE=0.0848 > 0.0700",
+      "output_snr_db: Spearman rho=0.8473 < 0.8500"
+    ]
+  },
+  "cases": [
+    {
+      "case_key": "1221-135766-0000|babble|-5.000",
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "babble",
+      "input_snr_db": -5.0,
+      "proxy": {
+        "output_snr_db": -1.678627243743843,
+        "haspi_v2": 0.5471733307591701,
+        "hasqi_v2": 0.06305408921031588,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": -4.501310933447219,
+        "haspi_v2": 0.5440793738998659,
+        "hasqi_v2": 0.0521929526891073,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case004_1221-135766-0000_babble_-5dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case004_1221-135766-0000_babble_-5dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case004_1221-135766-0000_babble_-5dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": 2.8226836897033762,
+        "haspi_v2": 0.0030939568593041367,
+        "hasqi_v2": 0.010861136521208584
+      }
+    },
+    {
+      "case_key": "1221-135766-0000|babble|0.000",
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "babble",
+      "input_snr_db": 0.0,
+      "proxy": {
+        "output_snr_db": -0.07496055614059514,
+        "haspi_v2": 0.6229278375663181,
+        "hasqi_v2": 0.11760823132493477,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": -1.2767855348765544,
+        "haspi_v2": 0.7202807415510354,
+        "hasqi_v2": 0.09018003115262434,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case005_1221-135766-0000_babble_+0dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case005_1221-135766-0000_babble_+0dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case005_1221-135766-0000_babble_+0dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": 1.2018249787359594,
+        "haspi_v2": -0.0973529039847173,
+        "hasqi_v2": 0.02742820017231043
+      }
+    },
+    {
+      "case_key": "1221-135766-0000|babble|5.000",
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "babble",
+      "input_snr_db": 5.0,
+      "proxy": {
+        "output_snr_db": 1.6018761259364327,
+        "haspi_v2": 0.6815305204124101,
+        "hasqi_v2": 0.21353304034755946,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": 0.5969237227246836,
+        "haspi_v2": 0.7392502979207828,
+        "hasqi_v2": 0.11821778768550438,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case006_1221-135766-0000_babble_+5dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case006_1221-135766-0000_babble_+5dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case006_1221-135766-0000_babble_+5dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": 1.0049524032117492,
+        "haspi_v2": -0.05771977750837265,
+        "hasqi_v2": 0.09531525266205508
+      }
+    },
+    {
+      "case_key": "1221-135766-0000|speech_shaped|-5.000",
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "speech_shaped",
+      "input_snr_db": -5.0,
+      "proxy": {
+        "output_snr_db": -1.6736961751622421,
+        "haspi_v2": 0.7027729202038324,
+        "hasqi_v2": 0.09236613514589762,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": -4.033341768715784,
+        "haspi_v2": 0.7419878018765187,
+        "hasqi_v2": 0.10248977086087775,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case001_1221-135766-0000_speech_shaped_-5dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case001_1221-135766-0000_speech_shaped_-5dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case001_1221-135766-0000_speech_shaped_-5dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": 2.3596455935535423,
+        "haspi_v2": -0.039214881672686275,
+        "hasqi_v2": -0.010123635714980136
+      }
+    },
+    {
+      "case_key": "1221-135766-0000|speech_shaped|0.000",
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "speech_shaped",
+      "input_snr_db": 0.0,
+      "proxy": {
+        "output_snr_db": -0.09126570470296858,
+        "haspi_v2": 0.5950873488086107,
+        "hasqi_v2": 0.05558153313449127,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": -0.1819143671422188,
+        "haspi_v2": 0.3427852136329931,
+        "hasqi_v2": 0.061090351830987356,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case002_1221-135766-0000_speech_shaped_+0dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case002_1221-135766-0000_speech_shaped_+0dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case002_1221-135766-0000_speech_shaped_+0dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": 0.09064866243925024,
+        "haspi_v2": 0.2523021351756176,
+        "hasqi_v2": -0.005508818696496089
+      }
+    },
+    {
+      "case_key": "1221-135766-0000|speech_shaped|5.000",
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "speech_shaped",
+      "input_snr_db": 5.0,
+      "proxy": {
+        "output_snr_db": 1.516376948185405,
+        "haspi_v2": 0.5618723322720564,
+        "hasqi_v2": 0.10477862064757335,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": 1.6109540666423785,
+        "haspi_v2": 0.3599305840933954,
+        "hasqi_v2": 0.06398686425555122,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case003_1221-135766-0000_speech_shaped_+5dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case003_1221-135766-0000_speech_shaped_+5dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case003_1221-135766-0000_speech_shaped_+5dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": -0.09457711845697347,
+        "haspi_v2": 0.20194174817866095,
+        "hasqi_v2": 0.04079175639202212
+      }
+    },
+    {
+      "case_key": "1221-135766-0001|babble|-5.000",
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "babble",
+      "input_snr_db": -5.0,
+      "proxy": {
+        "output_snr_db": -2.3955342650028397,
+        "haspi_v2": 0.05140785532503149,
+        "hasqi_v2": 0.04477042299609813,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": -3.63082955880625,
+        "haspi_v2": 0.16876861540008678,
+        "hasqi_v2": 0.03597790156059957,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case010_1221-135766-0001_babble_-5dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case010_1221-135766-0001_babble_-5dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case010_1221-135766-0001_babble_-5dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": 1.2352952938034103,
+        "haspi_v2": -0.11736076007505529,
+        "hasqi_v2": 0.008792521435498558
+      }
+    },
+    {
+      "case_key": "1221-135766-0001|babble|0.000",
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "babble",
+      "input_snr_db": 0.0,
+      "proxy": {
+        "output_snr_db": -0.7771597149216919,
+        "haspi_v2": 0.0447117739229133,
+        "hasqi_v2": 0.1083538546969037,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": -0.6866576893676943,
+        "haspi_v2": 0.0589856223107177,
+        "hasqi_v2": 0.08447731712320057,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case011_1221-135766-0001_babble_+0dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case011_1221-135766-0001_babble_+0dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case011_1221-135766-0001_babble_+0dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": -0.09050202555399756,
+        "haspi_v2": -0.014273848387804405,
+        "hasqi_v2": 0.02387653757370313
+      }
+    },
+    {
+      "case_key": "1221-135766-0001|babble|5.000",
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "babble",
+      "input_snr_db": 5.0,
+      "proxy": {
+        "output_snr_db": 0.9422513715806942,
+        "haspi_v2": 0.3403556660563164,
+        "hasqi_v2": 0.21327116732796234,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": 1.0623586355174688,
+        "haspi_v2": 0.20615798402404575,
+        "hasqi_v2": 0.14757981707045226,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case012_1221-135766-0001_babble_+5dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case012_1221-135766-0001_babble_+5dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case012_1221-135766-0001_babble_+5dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": -0.12010726393677462,
+        "haspi_v2": 0.13419768203227064,
+        "hasqi_v2": 0.06569135025751008
+      }
+    },
+    {
+      "case_key": "1221-135766-0001|speech_shaped|-5.000",
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "speech_shaped",
+      "input_snr_db": -5.0,
+      "proxy": {
+        "output_snr_db": -2.411410110103997,
+        "haspi_v2": 0.06255856593398619,
+        "hasqi_v2": 0.05839103599761264,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": -3.4622034790672545,
+        "haspi_v2": 0.2160215456462225,
+        "hasqi_v2": 0.07010567025882201,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case007_1221-135766-0001_speech_shaped_-5dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case007_1221-135766-0001_speech_shaped_-5dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case007_1221-135766-0001_speech_shaped_-5dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": 1.0507933689632574,
+        "haspi_v2": -0.15346297971223632,
+        "hasqi_v2": -0.011714634261209375
+      }
+    },
+    {
+      "case_key": "1221-135766-0001|speech_shaped|0.000",
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "speech_shaped",
+      "input_snr_db": 0.0,
+      "proxy": {
+        "output_snr_db": -0.8017569995398456,
+        "haspi_v2": 0.3764177027037047,
+        "hasqi_v2": 0.12160390151009776,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": -0.510845149964262,
+        "haspi_v2": 0.30879630385813134,
+        "hasqi_v2": 0.1405065681620061,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case008_1221-135766-0001_speech_shaped_+0dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case008_1221-135766-0001_speech_shaped_+0dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case008_1221-135766-0001_speech_shaped_+0dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": -0.2909118495755836,
+        "haspi_v2": 0.06762139884557339,
+        "hasqi_v2": -0.018902666651908345
+      }
+    },
+    {
+      "case_key": "1221-135766-0001|speech_shaped|5.000",
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "speech_shaped",
+      "input_snr_db": 5.0,
+      "proxy": {
+        "output_snr_db": 0.8577804140630205,
+        "haspi_v2": 0.6802154873267108,
+        "hasqi_v2": 0.23500379174016547,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": 1.2186679732132373,
+        "haspi_v2": 0.5948463481644394,
+        "hasqi_v2": 0.1916341248355768,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case009_1221-135766-0001_speech_shaped_+5dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case009_1221-135766-0001_speech_shaped_+5dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case009_1221-135766-0001_speech_shaped_+5dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": -0.36088755915021675,
+        "haspi_v2": 0.0853691391622714,
+        "hasqi_v2": 0.04336966690458868
+      }
+    },
+    {
+      "case_key": "1221-135766-0002|babble|-5.000",
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "babble",
+      "input_snr_db": -5.0,
+      "proxy": {
+        "output_snr_db": -1.9173045609790105,
+        "haspi_v2": 0.2537679018528868,
+        "hasqi_v2": 0.021473064823574525,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": -3.9708580471796533,
+        "haspi_v2": 0.32190627314695974,
+        "hasqi_v2": 0.017201210740884296,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case016_1221-135766-0002_babble_-5dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case016_1221-135766-0002_babble_-5dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case016_1221-135766-0002_babble_-5dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": 2.053553486200643,
+        "haspi_v2": -0.06813837129407296,
+        "hasqi_v2": 0.004271854082690228
+      }
+    },
+    {
+      "case_key": "1221-135766-0002|babble|0.000",
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "babble",
+      "input_snr_db": 0.0,
+      "proxy": {
+        "output_snr_db": -0.3076742893273327,
+        "haspi_v2": 0.42128301760147724,
+        "hasqi_v2": 0.1380634484965415,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": -0.15746225378700715,
+        "haspi_v2": 0.38036189159851164,
+        "hasqi_v2": 0.14044429480295773,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case017_1221-135766-0002_babble_+0dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case017_1221-135766-0002_babble_+0dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case017_1221-135766-0002_babble_+0dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": -0.15021203554032556,
+        "haspi_v2": 0.0409211260029656,
+        "hasqi_v2": -0.0023808463064162178
+      }
+    },
+    {
+      "case_key": "1221-135766-0002|babble|5.000",
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "babble",
+      "input_snr_db": 5.0,
+      "proxy": {
+        "output_snr_db": 1.3604480681115518,
+        "haspi_v2": 0.6298477704032125,
+        "hasqi_v2": 0.2506002969162798,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": 1.899881070094704,
+        "haspi_v2": 0.5604222769787089,
+        "hasqi_v2": 0.21114003291688302,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case018_1221-135766-0002_babble_+5dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case018_1221-135766-0002_babble_+5dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case018_1221-135766-0002_babble_+5dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": -0.5394330019831521,
+        "haspi_v2": 0.06942549342450355,
+        "hasqi_v2": 0.039460263999396755
+      }
+    },
+    {
+      "case_key": "1221-135766-0002|speech_shaped|-5.000",
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "speech_shaped",
+      "input_snr_db": -5.0,
+      "proxy": {
+        "output_snr_db": -1.8085462846131266,
+        "haspi_v2": 0.5025157771338888,
+        "hasqi_v2": 0.1131193477635986,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": -3.892074234048674,
+        "haspi_v2": 0.5295296189901468,
+        "hasqi_v2": 0.12493277858836818,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case013_1221-135766-0002_speech_shaped_-5dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case013_1221-135766-0002_speech_shaped_-5dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case013_1221-135766-0002_speech_shaped_-5dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": 2.083527949435547,
+        "haspi_v2": -0.027013841856257992,
+        "hasqi_v2": -0.011813430824769586
+      }
+    },
+    {
+      "case_key": "1221-135766-0002|speech_shaped|0.000",
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "speech_shaped",
+      "input_snr_db": 0.0,
+      "proxy": {
+        "output_snr_db": -0.2032916338592018,
+        "haspi_v2": 0.5982021475147608,
+        "hasqi_v2": 0.1787555658518955,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": -0.5383825144119421,
+        "haspi_v2": 0.6517781253054881,
+        "hasqi_v2": 0.20472994048283596,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case014_1221-135766-0002_speech_shaped_+0dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case014_1221-135766-0002_speech_shaped_+0dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case014_1221-135766-0002_speech_shaped_+0dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": 0.3350908805527403,
+        "haspi_v2": -0.053575977790727314,
+        "hasqi_v2": -0.02597437463094046
+      }
+    },
+    {
+      "case_key": "1221-135766-0002|speech_shaped|5.000",
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "speech_shaped",
+      "input_snr_db": 5.0,
+      "proxy": {
+        "output_snr_db": 1.4087183004330748,
+        "haspi_v2": 0.6525530421016298,
+        "hasqi_v2": 0.2541259385739754,
+        "backend": "clarity"
+      },
+      "rtl": {
+        "output_snr_db": 1.3851052009373908,
+        "haspi_v2": 0.6963549345561858,
+        "hasqi_v2": 0.22445289108783392,
+        "backend": "clarity",
+        "rtl_mix_out": "verification/reports/paper/rtl_cases/case015_1221-135766-0002_speech_shaped_+5dB_mix.wav",
+        "rtl_clean_out": "verification/reports/paper/rtl_cases/case015_1221-135766-0002_speech_shaped_+5dB_clean.wav",
+        "rtl_noise_out": "verification/reports/paper/rtl_cases/case015_1221-135766-0002_speech_shaped_+5dB_noise.wav"
+      },
+      "delta": {
+        "output_snr_db": 0.02361309949568402,
+        "haspi_v2": -0.04380189245455601,
+        "hasqi_v2": 0.029673047486141496
+      }
+    }
+  ]
+}

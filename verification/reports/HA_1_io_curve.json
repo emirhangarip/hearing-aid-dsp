@@ -1,0 +1,258 @@
+{
+  "clock_hz": 100000000,
+  "clock_context": "audio-domain",
+  "mode": "SPEC",
+  "frequencies_hz": [
+    500.0,
+    1000.0,
+    2000.0,
+    4000.0
+  ],
+  "input_levels_dbfs": [
+    -60.0,
+    -50.0,
+    -40.0,
+    -30.0,
+    -20.0,
+    -10.0,
+    -5.0
+  ],
+  "per_frequency": {
+    "500": {
+      "curve": [
+        {
+          "input_dbfs": -60.0,
+          "output_dbfs": -48.95292890824821,
+          "gain_db": 11.04707109175179,
+          "lut_addr": 0
+        },
+        {
+          "input_dbfs": -50.0,
+          "output_dbfs": -41.755494762004666,
+          "gain_db": 8.244505237995334,
+          "lut_addr": 2
+        },
+        {
+          "input_dbfs": -40.0,
+          "output_dbfs": -36.63429624192284,
+          "gain_db": 3.36570375807716,
+          "lut_addr": 6
+        },
+        {
+          "input_dbfs": -30.0,
+          "output_dbfs": -29.36328318261441,
+          "gain_db": 0.6367168173855902,
+          "lut_addr": 20
+        },
+        {
+          "input_dbfs": -20.0,
+          "output_dbfs": -22.20059202249361,
+          "gain_db": -2.200592022493609,
+          "lut_addr": 65
+        },
+        {
+          "input_dbfs": -10.0,
+          "output_dbfs": -23.96728264093153,
+          "gain_db": -13.96728264093153,
+          "lut_addr": 206
+        },
+        {
+          "input_dbfs": -5.0,
+          "output_dbfs": -24.468955808419004,
+          "gain_db": -19.468955808419004,
+          "lut_addr": 366
+        }
+      ],
+      "quiet_gain_db": 11.04707109175179,
+      "loud_gain_db": -19.468955808419004,
+      "compression_range_db": 30.516026900170793,
+      "gain_drop_per_db": 1.176669061843792,
+      "gain_drop_region_dbfs": [
+        -40.0,
+        -10.0
+      ],
+      "insertion_loss_db": 7.01472761264829,
+      "max_local_drop_db": 1.76669061843792,
+      "max_top_end_drop_db": 0.0,
+      "monotonic_drop_limit_db": 6.0,
+      "monotonic": true
+    },
+    "1000": {
+      "curve": [
+        {
+          "input_dbfs": -60.0,
+          "output_dbfs": -51.05185706573896,
+          "gain_db": 8.948142934261043,
+          "lut_addr": 0
+        },
+        {
+          "input_dbfs": -50.0,
+          "output_dbfs": -44.68041666255226,
+          "gain_db": 5.319583337447739,
+          "lut_addr": 2
+        },
+        {
+          "input_dbfs": -40.0,
+          "output_dbfs": -35.66308776520236,
+          "gain_db": 4.336912234797637,
+          "lut_addr": 6
+        },
+        {
+          "input_dbfs": -30.0,
+          "output_dbfs": -25.702140303677407,
+          "gain_db": 4.297859696322593,
+          "lut_addr": 20
+        },
+        {
+          "input_dbfs": -20.0,
+          "output_dbfs": -16.564359919805906,
+          "gain_db": 3.4356400801940943,
+          "lut_addr": 65
+        },
+        {
+          "input_dbfs": -10.0,
+          "output_dbfs": -11.115716155339081,
+          "gain_db": -1.115716155339081,
+          "lut_addr": 206
+        },
+        {
+          "input_dbfs": -5.0,
+          "output_dbfs": -9.191580185169121,
+          "gain_db": -4.191580185169121,
+          "lut_addr": 366
+        }
+      ],
+      "quiet_gain_db": 8.948142934261043,
+      "loud_gain_db": -4.191580185169121,
+      "compression_range_db": 13.139723119430164,
+      "gain_drop_per_db": 0.45513562355331755,
+      "gain_drop_region_dbfs": [
+        -40.0,
+        -10.0
+      ],
+      "insertion_loss_db": 9.113655770139037,
+      "max_local_drop_db": 0.0,
+      "max_top_end_drop_db": 0.0,
+      "monotonic_drop_limit_db": 6.0,
+      "monotonic": true
+    },
+    "2000": {
+      "curve": [
+        {
+          "input_dbfs": -60.0,
+          "output_dbfs": -46.444581398057366,
+          "gain_db": 13.555418601942634,
+          "lut_addr": 0
+        },
+        {
+          "input_dbfs": -50.0,
+          "output_dbfs": -40.53540427978454,
+          "gain_db": 9.464595720215463,
+          "lut_addr": 2
+        },
+        {
+          "input_dbfs": -40.0,
+          "output_dbfs": -35.683705619410965,
+          "gain_db": 4.316294380589035,
+          "lut_addr": 6
+        },
+        {
+          "input_dbfs": -30.0,
+          "output_dbfs": -35.42270497432089,
+          "gain_db": -5.422704974320887,
+          "lut_addr": 20
+        },
+        {
+          "input_dbfs": -20.0,
+          "output_dbfs": -22.830364801015012,
+          "gain_db": -2.830364801015012,
+          "lut_addr": 65
+        },
+        {
+          "input_dbfs": -10.0,
+          "output_dbfs": -20.69188516497156,
+          "gain_db": -10.69188516497156,
+          "lut_addr": 206
+        },
+        {
+          "input_dbfs": -5.0,
+          "output_dbfs": -32.64336067511521,
+          "gain_db": -27.64336067511521,
+          "lut_addr": 366
+        }
+      ],
+      "quiet_gain_db": 13.555418601942634,
+      "loud_gain_db": -27.64336067511521,
+      "compression_range_db": 41.198779277057845,
+      "gain_drop_per_db": 0.9738999354909922,
+      "gain_drop_region_dbfs": [
+        -40.0,
+        -10.0
+      ],
+      "insertion_loss_db": 4.506380102457445,
+      "max_local_drop_db": 11.951475510143652,
+      "max_top_end_drop_db": 11.951475510143652,
+      "monotonic_drop_limit_db": 6.0,
+      "monotonic": true
+    },
+    "4000": {
+      "curve": [
+        {
+          "input_dbfs": -60.0,
+          "output_dbfs": -50.07368516652936,
+          "gain_db": 9.926314833470641,
+          "lut_addr": 0
+        },
+        {
+          "input_dbfs": -50.0,
+          "output_dbfs": -46.366913207825036,
+          "gain_db": 3.6330867921749643,
+          "lut_addr": 2
+        },
+        {
+          "input_dbfs": -40.0,
+          "output_dbfs": -38.16558681758818,
+          "gain_db": 1.8344131824118222,
+          "lut_addr": 6
+        },
+        {
+          "input_dbfs": -30.0,
+          "output_dbfs": -28.455750084416653,
+          "gain_db": 1.5442499155833467,
+          "lut_addr": 20
+        },
+        {
+          "input_dbfs": -20.0,
+          "output_dbfs": -20.203412640911026,
+          "gain_db": -0.20341264091102573,
+          "lut_addr": 65
+        },
+        {
+          "input_dbfs": -10.0,
+          "output_dbfs": -15.106303732108472,
+          "gain_db": -5.106303732108472,
+          "lut_addr": 206
+        },
+        {
+          "input_dbfs": -5.0,
+          "output_dbfs": -13.012532160011146,
+          "gain_db": -8.012532160011146,
+          "lut_addr": 366
+        }
+      ],
+      "quiet_gain_db": 9.926314833470641,
+      "loud_gain_db": -8.012532160011146,
+      "compression_range_db": 17.93884699348179,
+      "gain_drop_per_db": 0.49028910911974466,
+      "gain_drop_region_dbfs": [
+        -40.0,
+        -10.0
+      ],
+      "insertion_loss_db": 8.135483870929438,
+      "max_local_drop_db": 0.0,
+      "max_top_end_drop_db": 0.0,
+      "monotonic_drop_limit_db": 6.0,
+      "monotonic": true
+    }
+  }
+}

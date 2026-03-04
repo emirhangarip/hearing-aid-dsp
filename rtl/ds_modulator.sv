@@ -23,8 +23,14 @@ module ds_modulator #(
     // feedback values
     wire signed [BW_TOT-1:0] MAX_VAL = MID_VAL;
     wire signed [BW_TOT-1:0] MIN_VAL = -MID_VAL;
-    wire signed [BW_TOT2-1:0] MAX_VAL2 = MAX_VAL;
-    wire signed [BW_TOT2-1:0] MIN_VAL2 = MIN_VAL;
+    wire signed [BW_TOT2-1:0] MAX_VAL2 = {
+        {(BW_TOT2-BW_TOT){MAX_VAL[BW_TOT-1]}},
+        MAX_VAL
+    };
+    wire signed [BW_TOT2-1:0] MIN_VAL2 = {
+        {(BW_TOT2-BW_TOT){MIN_VAL[BW_TOT-1]}},
+        MIN_VAL
+    };
     
     // feedback selection
     wire signed [BW_TOT-1:0] dac_val = (dout_r) ? MAX_VAL : MIN_VAL;

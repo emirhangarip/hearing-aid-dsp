@@ -1,0 +1,11 @@
+{
+  "tool": "Gowin EDA",
+  "device": "GW5A-LV25MG121NC1/I0",
+  "lut4": 2782,
+  "ff": 3426,
+  "bsram18": 24,
+  "dsp": 16,
+  "fmax_mhz": 67.16,
+  "power_mw": 130.55,
+  "notes": "Tool-reported device: GW5A-LV25MG121NC1/I0. Board docs may label this as GW5A-LV25MG121C1/I0."
+}

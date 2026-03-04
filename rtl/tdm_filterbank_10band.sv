@@ -41,7 +41,7 @@ module tdm_filterbank_10band #(
     // Core Signals
     logic core_en;
     logic signed [23:0] c_x, c_x1, c_x2, c_y1, c_y2;
-    logic signed [23:0] c_b0, c_b1, c_b2, c_a1, c_a2;
+    logic signed [31:0] c_b0, c_b1, c_b2, c_a1, c_a2;
     logic signed [23:0] c_out;
     
     // ROM Address Calculation

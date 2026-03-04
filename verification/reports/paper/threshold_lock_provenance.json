@@ -1,0 +1,215 @@
+{
+  "generated_utc": "2026-03-02T23:12:44.476928+00:00",
+  "mode": "collect_calibration_refresh",
+  "threshold_config": {
+    "path": "verification/config/paper_thresholds.yaml",
+    "sha256": "e0d196480a319a646575f3783221873b938d8a33fadc84ed18e6cc1293370800"
+  },
+  "report_inputs": {
+    "required": [
+      "verification/reports/HA_7_output_snr.json",
+      "verification/reports/HA_8_haspi_hasqi.json",
+      "verification/reports/HA_9_reverb_eval.json",
+      "verification/reports/HA_10_modulation_metrics.json"
+    ],
+    "used": [
+      "verification/reports/HA_7_output_snr.json",
+      "verification/reports/HA_8_haspi_hasqi.json",
+      "verification/reports/HA_9_reverb_eval.json",
+      "verification/reports/HA_10_modulation_metrics.json"
+    ],
+    "missing": []
+  },
+  "counts": {
+    "locked_metrics": 6,
+    "reports_used": 4
+  },
+  "metrics": [
+    {
+      "metric": "dr_db",
+      "direction": "higher_is_better",
+      "source_files": [
+        "verification/reports/HA_10_modulation_metrics.json"
+      ],
+      "source_trace": [
+        {
+          "report": "verification/reports/HA_10_modulation_metrics.json",
+          "source_kind": "proposed_thresholds",
+          "proposed_value": 2.0189882094180494,
+          "summary_mean": 7.099721029914763,
+          "summary_std": 2.5403664102483567
+        }
+      ],
+      "selected_source": {
+        "report": "verification/reports/HA_10_modulation_metrics.json",
+        "source_kind": "proposed_thresholds",
+        "summary_mean": 7.099721029914763,
+        "summary_std": 2.5403664102483567
+      },
+      "proposed_before_clamp": 2.0189882094180494,
+      "guard_role": "floor",
+      "guard_value": 5.0,
+      "clamp_applied": true,
+      "final_locked_threshold": 5.0
+    },
+    {
+      "metric": "ecr",
+      "direction": "lower_is_better",
+      "source_files": [
+        "verification/reports/HA_10_modulation_metrics.json"
+      ],
+      "source_trace": [
+        {
+          "report": "verification/reports/HA_10_modulation_metrics.json",
+          "source_kind": "proposed_thresholds",
+          "proposed_value": 1.720745465569319,
+          "summary_mean": 0.8412171979418035,
+          "summary_std": 0.43976413381375784
+        }
+      ],
+      "selected_source": {
+        "report": "verification/reports/HA_10_modulation_metrics.json",
+        "source_kind": "proposed_thresholds",
+        "summary_mean": 0.8412171979418035,
+        "summary_std": 0.43976413381375784
+      },
+      "proposed_before_clamp": 1.720745465569319,
+      "guard_role": "ceiling",
+      "guard_value": 1.2,
+      "clamp_applied": true,
+      "final_locked_threshold": 1.2
+    },
+    {
+      "metric": "haspi_v2",
+      "direction": "higher_is_better",
+      "source_files": [
+        "verification/reports/HA_8_haspi_hasqi.json",
+        "verification/reports/HA_9_reverb_eval.json"
+      ],
+      "source_trace": [
+        {
+          "report": "verification/reports/HA_8_haspi_hasqi.json",
+          "source_kind": "proposed_thresholds",
+          "proposed_value": -0.307066587660612,
+          "summary_mean": 0.4072903078751513,
+          "summary_std": 0.35717844776788166
+        },
+        {
+          "report": "verification/reports/HA_9_reverb_eval.json",
+          "source_kind": "proposed_thresholds",
+          "proposed_value": -0.3256967504471142,
+          "summary_mean": 0.32768315327854813,
+          "summary_std": 0.3266899518628312
+        }
+      ],
+      "selected_source": {
+        "report": "verification/reports/HA_9_reverb_eval.json",
+        "source_kind": "proposed_thresholds",
+        "summary_mean": 0.32768315327854813,
+        "summary_std": 0.3266899518628312
+      },
+      "proposed_before_clamp": -0.3256967504471142,
+      "guard_role": "floor",
+      "guard_value": 0.3,
+      "clamp_applied": true,
+      "final_locked_threshold": 0.3
+    },
+    {
+      "metric": "hasqi_v2",
+      "direction": "higher_is_better",
+      "source_files": [
+        "verification/reports/HA_8_haspi_hasqi.json",
+        "verification/reports/HA_9_reverb_eval.json"
+      ],
+      "source_trace": [
+        {
+          "report": "verification/reports/HA_8_haspi_hasqi.json",
+          "source_kind": "proposed_thresholds",
+          "proposed_value": -0.0410210544798075,
+          "summary_mean": 0.18327930241281742,
+          "summary_std": 0.11215017844631246
+        },
+        {
+          "report": "verification/reports/HA_9_reverb_eval.json",
+          "source_kind": "proposed_thresholds",
+          "proposed_value": -0.06310962719925706,
+          "summary_mean": 0.13424561623497025,
+          "summary_std": 0.09867762171711365
+        }
+      ],
+      "selected_source": {
+        "report": "verification/reports/HA_9_reverb_eval.json",
+        "source_kind": "proposed_thresholds",
+        "summary_mean": 0.13424561623497025,
+        "summary_std": 0.09867762171711365
+      },
+      "proposed_before_clamp": -0.06310962719925706,
+      "guard_role": "floor",
+      "guard_value": 0.12,
+      "clamp_applied": true,
+      "final_locked_threshold": 0.12
+    },
+    {
+      "metric": "output_snr_db",
+      "direction": "higher_is_better",
+      "source_files": [
+        "verification/reports/HA_7_output_snr.json",
+        "verification/reports/HA_9_reverb_eval.json"
+      ],
+      "source_trace": [
+        {
+          "report": "verification/reports/HA_7_output_snr.json",
+          "source_kind": "proposed_thresholds",
+          "proposed_value": -6.043742749939943,
+          "summary_mean": -1.2558530573918025,
+          "summary_std": 2.3939448462740702
+        },
+        {
+          "report": "verification/reports/HA_9_reverb_eval.json",
+          "source_kind": "proposed_thresholds",
+          "proposed_value": -6.033008390882641,
+          "summary_mean": -1.2524425597629132,
+          "summary_std": 2.390282915559864
+        }
+      ],
+      "selected_source": {
+        "report": "verification/reports/HA_9_reverb_eval.json",
+        "source_kind": "proposed_thresholds",
+        "summary_mean": -1.2524425597629132,
+        "summary_std": 2.390282915559864
+      },
+      "proposed_before_clamp": -6.033008390882641,
+      "guard_role": "floor",
+      "guard_value": -2.0,
+      "clamp_applied": true,
+      "final_locked_threshold": -2.0
+    },
+    {
+      "metric": "output_snr_slope_db_per_db",
+      "direction": "higher_is_better",
+      "source_files": [
+        "verification/reports/HA_7_output_snr.json"
+      ],
+      "source_trace": [
+        {
+          "report": "verification/reports/HA_7_output_snr.json",
+          "source_kind": "proposed_thresholds",
+          "proposed_value": 0.33422606521164977,
+          "summary_mean": 0.334298269660243,
+          "summary_std": 3.6102224296619134e-05
+        }
+      ],
+      "selected_source": {
+        "report": "verification/reports/HA_7_output_snr.json",
+        "source_kind": "proposed_thresholds",
+        "summary_mean": 0.334298269660243,
+        "summary_std": 3.6102224296619134e-05
+      },
+      "proposed_before_clamp": 0.33422606521164977,
+      "guard_role": "floor",
+      "guard_value": 0.3,
+      "clamp_applied": false,
+      "final_locked_threshold": 0.33422606521164977
+    }
+  ]
+}

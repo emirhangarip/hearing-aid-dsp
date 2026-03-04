@@ -1,0 +1,1450 @@
+{
+  "mode": "signoff",
+  "noise_types": [
+    "babble",
+    "speech_shaped"
+  ],
+  "input_snr_db": [
+    -10.0,
+    -5.0,
+    0.0,
+    5.0,
+    10.0
+  ],
+  "rows": [
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.444067967806552
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.7957846266548945
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.144800189455931
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.5337649588561512
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.2446009459903298
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.356665987037088
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.7158649749344157
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.0828402991290818
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.5492759828456546
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.267146908774515
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.700956737350078
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.0524520357363425
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.39265148094356
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.3074162469472037
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.012666732570895
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.483465802782171
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.8277005887281854
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.1646925829881334
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.5379261622700549
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.237547907727268
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.813617151524162
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.1667908000074227
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.5223318075677639
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.1430974242898325
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.8483950498044512
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.662431618214789
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.0032982518135465
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.3298423139590676
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.3675657179978393
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.0618660209497635
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.473255605045052
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.8234851904244
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.1532483210102054
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.5357504359976752
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.233565924260789
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.2427729614941345
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.604548197549645
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.9568483882395504
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.7389808577758078
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.4439654222341045
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -5.164037882341126
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.50755928622327
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.8114498370096188
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": -0.10257934970003565
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.6054212279561382
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.955062644776829
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.306465050623152
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.6269450686639915
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.09533391108944939
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.811764227503034
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.612637284215623
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.9642604397581716
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.3107280043480638
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.3627507686769339
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.0735505013995157
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.496407021796968
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.8498714331890533
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.2003472802968764
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.45494657622638535
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.1413275077605185
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.444127066233393
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.7993931295911616
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.1350287626116526
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.5678013562134692
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.2698719889142103
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.171041037628079
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.5226248609162405
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.8488497481625925
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.836483705982276
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.55123306337355
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -5.55126746955335
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.895201864740678
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -2.219937787244277
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": -0.5188632065053874
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.181736310405212
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -5.4142454691302095
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.772450488505323
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -2.122355037289269
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": -0.4546820531455876
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.2593455556603845
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.219630885589815
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.5793691413757958
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.9290524261691689
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.7414304031471226
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.4536615051001913
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.101218054547643
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.4264686341376627
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.7371905482133934
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.9504615658699047
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.641898238367739
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.13464784572798
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.4935736181218378
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.8331808556883002
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.8556032832670619
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.5637865705412772
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -3.964999641287808
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.316154674055599
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.6507682151051299
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 1.0316574553243536
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.7416357132558873
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.304799692544071
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.661587925401378
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.0144489582484095
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.647803044790371
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.3484311551912236
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.16256781493641
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.524912143462606
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.8726518370968175
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.7873509536614429
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.4606511174346837
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.805978263014989
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.1686612826792713
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.5261295873361398
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.14574425080910974
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.8499337348597569
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.64311232945071
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.0091346063782103
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.3684458575612954
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.29715201916700895
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.0022447401397274
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.361070342544164
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.726200883402394
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.0832343843873011
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.5781944669041431
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.2759405113678506
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.167634883101689
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.537801287691892
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.9077058796164829
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.7291919389187334
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.3968854115270357
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.183274913028408
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.5500155576202914
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.9143307320474415
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.745770520852373
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.4514017444368914
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -3.995854368312428
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.3552079260022576
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.700586765411748
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.9771670153928347
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.68344696510559
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -5.061589402017815
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.4182789244452003
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.7710363571730305
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": -0.11957292997023339
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.5811533587957152
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.815599354124948
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.1852633277235154
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.5465913818051122
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.10393596562570316
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.8250149104696756
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.612157303480662
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.9687803020057038
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.3097710065175119
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.38349255946077215
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.09744129238773
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.286970900202401
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.639337097435652
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -0.9965024951111716
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.6533028904291556
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.38382659222469
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.761873306215038
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.116669917873745
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.4683037559810446
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.21533644763813853
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.924930307589114
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.546479220230893
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.8770644945392836
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.2012988769349588
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.4928892416947678
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.1911667320536106
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.742780706184184
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.096122177003692
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.447081377934723
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.23599971073260842
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.946885004257699
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.436877614667703
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -2.7723932156794366
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.086774150130539
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.6080279163290142
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.300991504720592
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -5.320387180051354
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.675570468112414
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -2.0250435007689345
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": -0.3027124983619447
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.4094484082318812
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.984380822793908
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.3503600095431754
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.6708193749076292
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.050939262847362804
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.7724625054039604
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.923182887623417
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.2883010100491843
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.6400921874332408
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.03944200688418973
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "speech_shaped",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 1.75105731074263
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -10.0,
+      "output_snr_db": -4.679426839489859
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": -5.0,
+      "output_snr_db": -3.025624369321392
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 0.0,
+      "output_snr_db": -1.3561652516064222
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 5.0,
+      "output_snr_db": 0.3408958325365518
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "noise_type": "babble",
+      "rt60_s": 0.0,
+      "input_snr_db": 10.0,
+      "output_snr_db": 2.0398762360423546
+    }
+  ],
+  "summary": {
+    "output_snr_db": {
+      "mean": -1.2558530573918025,
+      "std": 2.3939448462740702,
+      "n": 200.0
+    },
+    "output_snr_slope_db_per_db": {
+      "mean": 0.334298269660243,
+      "std": 3.6102224296619134e-05,
+      "n": 2.0
+    }
+  },
+  "per_noise_slope": {
+    "babble": 0.3343343718845396,
+    "speech_shaped": 0.3342621674359464
+  },
+  "proposed_thresholds": {
+    "output_snr_db": -6.043742749939943,
+    "output_snr_slope_db_per_db": 0.33422606521164977
+  },
+  "comparison_source": "verification/reports/paper/baseline_comparison.json",
+  "comparison_methods": [
+    "unprocessed",
+    "nalr",
+    "wdrc_proxy"
+  ],
+  "plot": {
+    "saved": true,
+    "paths": {
+      "pdf": "/home/emirhan/Desktop/projects/hearing-aid-dsp/verification/reports/paper/fig7_output_snr_sweep.pdf",
+      "png": "/home/emirhan/Desktop/projects/hearing-aid-dsp/verification/reports/paper/fig7_output_snr_sweep.png"
+    },
+    "quality_warnings": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "required_statement": [
+    "100 MHz results are simulation-reference for PDM-path tests.",
+    "FPGA timing evidence is Fmax-based implementation evidence.",
+    "No claim of 100 MHz silicon operation is made unless timing closure at 100 MHz is demonstrated."
+  ],
+  "reports": {
+    "test1_thdn_results_analog": {
+      "clock_hz": 100000000,
+      "clock_context": "simulation-reference"
+    },
+    "HA_4_thd": {
+      "clock_hz": 100000000,
+      "clock_context": "simulation-reference"
+    },
+    "HA_12_ospl_ein": {
+      "clock_hz": 100000000,
+      "clock_context": "audio-domain"
+    },
+    "fpga_synthesis": {
+      "fmax_mhz": 67.16,
+      "lut4": 2782,
+      "ff": 3426,
+      "bsram18": 24,
+      "dsp": 16,
+      "power_mw": 130.55
+    }
+  }
+}

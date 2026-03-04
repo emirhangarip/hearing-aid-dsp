@@ -1,0 +1,107 @@
+{
+  "dataset": "LibriSpeech",
+  "split": "test-clean",
+  "selection_mode": "sorted_first_n",
+  "entries": [
+    {
+      "utterance_id": "1221-135766-0000",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135766/1221-135766-0000.flac",
+      "sha256": "1f6b9ba126dc0f0a3cb813b04e2c970ff9583beeaf8cfaa8f7c8199244aa2514"
+    },
+    {
+      "utterance_id": "1221-135766-0001",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135766/1221-135766-0001.flac",
+      "sha256": "178cd97b0bbaa2f8919fd2a8a7c17e9d3891ec88199e54dbb0f01bd6274207a0"
+    },
+    {
+      "utterance_id": "1221-135766-0002",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135766/1221-135766-0002.flac",
+      "sha256": "1f02bae046f9567010f0163e8f204612fd1035a751383586a7aef6cb0fcc6e60"
+    },
+    {
+      "utterance_id": "1221-135766-0003",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135766/1221-135766-0003.flac",
+      "sha256": "9f44ad009d249aac43da84960e5482148b6ad56f9e566ff9531d26436b6f87d4"
+    },
+    {
+      "utterance_id": "1221-135766-0004",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135766/1221-135766-0004.flac",
+      "sha256": "0c9ef992cd12b597219de360d086cd1638170c61640049fd3ebcb21918bf1009"
+    },
+    {
+      "utterance_id": "1221-135766-0005",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135766/1221-135766-0005.flac",
+      "sha256": "57ad0fad287d98afb900ccaa898a6e75348b80a3388201cd3e1feee0a0afc6b1"
+    },
+    {
+      "utterance_id": "1221-135766-0006",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135766/1221-135766-0006.flac",
+      "sha256": "2d2ce93b5e27db02117c0ca8fa7bb1b6533999bc60512a4a6244ad584e642024"
+    },
+    {
+      "utterance_id": "1221-135766-0007",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135766/1221-135766-0007.flac",
+      "sha256": "c52eccd918531dd78a4ebea822faa6c7018c33781ac95b9865338e9738e4bfd8"
+    },
+    {
+      "utterance_id": "1221-135766-0008",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135766/1221-135766-0008.flac",
+      "sha256": "c1798583efeee5b059960a3ae3022eb63a4d3a4618f907cb8e3b5f6e04a61217"
+    },
+    {
+      "utterance_id": "1221-135766-0009",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135766/1221-135766-0009.flac",
+      "sha256": "2b71373e9479f8c30d7ef90f67ce562bf0664ffb9d05e13dd3f840e6852e2ce9"
+    },
+    {
+      "utterance_id": "1221-135766-0010",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135766/1221-135766-0010.flac",
+      "sha256": "293850a142ed0484d7aa1c588fbd0ec7046d781141ce45265ac8dc0f74033bc7"
+    },
+    {
+      "utterance_id": "1221-135766-0011",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135766/1221-135766-0011.flac",
+      "sha256": "49196a6d5e6898f77912744eac6973fd4054fd2b6a70d7afd218e5ae9d9b3204"
+    },
+    {
+      "utterance_id": "1221-135766-0012",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135766/1221-135766-0012.flac",
+      "sha256": "56ad486883dbcedd2c46751126acefdb4161ee70eede11432560f7b9dca71d1b"
+    },
+    {
+      "utterance_id": "1221-135766-0013",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135766/1221-135766-0013.flac",
+      "sha256": "afeb4a9850dd031ae25e8260d6589e7fda90b93d675e54dedaca1c6bf16bb6a8"
+    },
+    {
+      "utterance_id": "1221-135766-0014",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135766/1221-135766-0014.flac",
+      "sha256": "9378d3b134dfadc2aec857f0a212c18c01e453de25643b3ef68a8705cd775814"
+    },
+    {
+      "utterance_id": "1221-135766-0015",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135766/1221-135766-0015.flac",
+      "sha256": "01ec78f2b3c2b1f1324ae7d19be5ba20f39c48959fe22cd295ea59e232cd3c26"
+    },
+    {
+      "utterance_id": "1221-135767-0000",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135767/1221-135767-0000.flac",
+      "sha256": "3c2a567579ba2887aceba70a639f5ef78fbd75e896c4ee1f1af417697ceb9079"
+    },
+    {
+      "utterance_id": "1221-135767-0001",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135767/1221-135767-0001.flac",
+      "sha256": "0d8ef7e082f0fd267ec1e645e20c3308fc97f191d58ac72badca7b24815e6e08"
+    },
+    {
+      "utterance_id": "1221-135767-0002",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135767/1221-135767-0002.flac",
+      "sha256": "164ac0778b5cc1c637e1805069f47df9026513ac2fb4249ba8c80f428f68a067"
+    },
+    {
+      "utterance_id": "1221-135767-0003",
+      "relative_path": "verification/data/LibriSpeech/test-clean/1221/135767/1221-135767-0003.flac",
+      "sha256": "4d1e44c0b88787b0e76244e954e21187d47bb3be45229016b067ab793fd089bf"
+    }
+  ]
+}

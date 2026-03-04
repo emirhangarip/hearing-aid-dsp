@@ -1,0 +1,18 @@
+# Verification environment and caches
+verification/.venv/
+verification/data/
+verification/**/__pycache__/
+verification/sim/.cocotb/
+verification/sim/build/
+verification/sim/xsim.dir/
+verification/sim/fpga_coeff.mem
+verification/sim/intop_wdrc_gain_lut_b*.mem
+
+# Simulator build outputs
+verification/sim/sim_build*/
+verification/sim/results.xml
+verification/sim/*.wdb
+verification/sim/*.jou
+verification/sim/*.log
+verification/sim/*.pb
+verification/sim/dump.vcd

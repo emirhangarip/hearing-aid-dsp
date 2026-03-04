@@ -4,11 +4,11 @@
 module hearing_core #(
     parameter DAC_BW   = 32,
     parameter OSR      = 64,
-    parameter AUDIO_FS = 48000,       // Audio sampling frequency in Hz
-    parameter CLK_FREQ = 100000000    // 100 MHz modulator clock
+    parameter AUDIO_FS = 48000,       // Nominal external I2S audio rate (Hz)
+    parameter CLK_FREQ = 100000000    // System clock in Hz (board/PLL dependent)
 )(
     // System
-    input  wire clk,           // 100 MHz modulator clock
+    input  wire clk,           // System clock
     input  wire rst_n,         // Active-low reset
     
     // I2S inputs
@@ -102,8 +102,9 @@ module hearing_core #(
         end
     end
 
-    // Create a single-cycle pulse on the rising edge of right_ready
-    // This drives the TDM core state machine.
+    // Create a single-cycle pulse on the rising edge of right_ready.
+    // IMPORTANT: in hearing_core, sample cadence is locked to external I2S
+    // framing (right_ready), not to CLK_FREQ/AUDIO_FS integer division.
     assign tdm_sample_valid = right_ready && !right_ready_prev;
 
     // ============================================================
