@@ -3,17 +3,24 @@
 ## Scope
 
 This flow produces objective, simulation-based evidence for the paper.
-It does not include human-subject evaluation.
+It does not cover human-subject evaluation.
 
-## Environment
+## Preflight
+
+Before starting a lock run:
+1. Ensure working tree is clean or intentionally staged.
+2. Ensure verification environment is active.
+3. Ensure enough free disk space for regenerated plots/WAV artifacts.
+
+Environment setup:
 
 ```bash
 cd verification
 source bootstrap_env.sh
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
-## Main Command
+## Main Signoff Command
 
 ```bash
 make -C sim SIM=verilator paper-signoff
@@ -27,22 +34,9 @@ make -C sim SIM=verilator paper-signoff
 5. clock note/check
 6. artifact manifest
 
-## Optional Proxy-vs-RTL Package
+## Lock Snapshot Sequence (Exact)
 
-These targets are manual on purpose.
-
-```bash
-make -C sim SIM=verilator paper-proxy-capture
-make -C sim paper-proxy-validate
-```
-
-- `paper-proxy-capture` drives RTL and writes case WAVs + manifest.
-- `paper-proxy-validate` compares those RTL WAVs against proxy outputs.
-- Default policy is non-blocking unless `PAPER_PROXY_VALIDATE_ENFORCE=1`.
-
-## Pre-Push Lock Checklist
-
-Run this exact sequence before a lock commit:
+Run this sequence before push/lock:
 
 ```bash
 make -C verification/sim clean
@@ -52,10 +46,36 @@ make -C verification/sim paper-proxy-validate
 make -C verification/sim paper-manifest
 ```
 
-Required coherence checks:
-- `proxy_rtl_capture_manifest.json` has 18 entries (`case_spec=1-18`).
-- `verification/reports/paper/rtl_cases/` contains 54 WAV files (18×`mix/clean/noise`).
-- `proxy_rtl_correlation.{json,md}` is refreshed against the current capture manifest.
+## Success Markers
+
+Check these markers in terminal output:
+- `[paper] === SIGNOFF DONE ===`
+- `[manifest] Wrote ... -> .../verification/reports/paper/manifest.json`
+
+Proxy step behavior:
+- `paper-proxy-validate` may print `[proxy-rtl] FAIL` under default non-blocking policy.
+- strict mode requires:
+  - `PAPER_PROXY_VALIDATE_ENFORCE=1`
+
+## Proxy Coherence Checks
+
+Required package coherence after capture/validate:
+1. `verification/reports/paper/proxy_rtl_capture_manifest.json`
+   - `entries = 18`
+   - `case_spec = "1-18"`
+2. `verification/reports/paper/rtl_cases/`
+   - exactly 54 WAV files (`mix/clean/noise` × 18)
+3. `verification/reports/paper/proxy_rtl_correlation.{json,md}`
+   - refreshed after the latest capture
+
+## Optional Proxy-vs-RTL Commands
+
+Manual package commands:
+
+```bash
+make -C sim SIM=verilator paper-proxy-capture
+make -C sim paper-proxy-validate
+```
 
 ## Key Artifacts
 
@@ -71,4 +91,4 @@ Required coherence checks:
 - L1-L4 are RTL electroacoustic evidence.
 - HA-7..HA-10 are proxy-model objective evaluations.
 - HA-12 values are digital-domain proxies (dBFS), not SPL coupler measurements.
-- 100 MHz simulation results are not silicon timing claims by themselves; timing claims come from implementation reports (for example `fpga_synthesis.json`).
+- 100 MHz simulation results are simulation-reference unless supported by implementation timing evidence (for example `fpga_synthesis.json`).
