@@ -47,11 +47,6 @@ flutter run
 
 The Flutter application serves as a complete fitting interface for the Audio Enhancement Unit (AEU). It performs in-app audiometry, calculates personalized WDRC profiles, and transmits them to the ESP32 hardware over Bluetooth Low Energy.
 
-### Features
-**WDRC Algorithm**
-**Bluetooth Low Energy (BLE)**
-**In-App Audiometry**
-
 ### Technical Stack
 
 | | |
