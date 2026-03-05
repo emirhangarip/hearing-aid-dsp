@@ -66,6 +66,23 @@ The Flutter application serves as a complete fitting interface for the Audio Enh
 | Connectivity | Bluetooth Low Energy (`flutter_blue_plus`) |
 | Audio | PCM16 Tone Synthesis (`flutter_sound`) |
 
+## ESP32 Firmware
+
+### Dependencies
+
+| Library | Source | Notes |
+|---|---|---|
+| `BLEDevice` / `BLEServer` / `BLE2902` | ESP32 Arduino Core (Espressif) | Built-in with board package |
+| `SPI.h` | ESP32 Arduino Core (Espressif) | Built-in |
+| `LittleFS.h` | ESP32 Arduino Core (Espressif) | Built-in |
+| `driver/i2s.h` | ESP-IDF (via Arduino Core) | Built-in |
+
+All libraries ship with the **ESP32 board package by Espressif** — no manual installs needed.
+
+In Arduino IDE → Board Manager, search `esp32` and install:
+```
+esp32 by Espressif Systems  ≥ 2.0.0
+```
 ## RTL / Verification
 
 ### Documentation Map
