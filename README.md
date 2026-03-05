@@ -66,7 +66,7 @@ The Flutter application serves as a complete fitting interface for the Audio Enh
 | Connectivity | Bluetooth Low Energy (`flutter_blue_plus`) |
 | Audio | PCM16 Tone Synthesis (`flutter_sound`) |
 
-## ESP32 Firmware
+## ESP32 Part
 
 ### Dependencies
 
