@@ -18,17 +18,6 @@ hearing-aid-dsp/
 
 ## Quick Start
 
-### RTL / Verification
-
-From repo root:
-
-```bash
-cd verification
-source bootstrap_env.sh
-python3 -m pip install -r requirements.txt
-make -C sim SIM=verilator paper-signoff
-```
-
 ### Mobile App
 
 Requirements: Flutter SDK, Android Studio, Android device (Android 12+)
@@ -43,9 +32,29 @@ flutter run
 
 ---
 
+### ESP32 Firmware (Seeed Studio XIAO ESP32C3)
+
+Requirements: Arduino IDE, ESP32 board package (`esp32` by Espressif)
+```bash
+# In Arduino IDE:
+# Board   → "XIAO_ESP32C3"
+# Port    → your COM / ttyUSB port
+# Upload  → esp32/app2aeu.ino
+```
+### RTL / Verification
+
+From repo root:
+
+```bash
+cd verification
+source bootstrap_env.sh
+python3 -m pip install -r requirements.txt
+make -C sim SIM=verilator paper-signoff
+```
+
 ## Mobile Application
 
-The Flutter application serves as a complete fitting interface for the Audio Enhancement Unit (AEU). It performs in-app audiometry, calculates personalized WDRC profiles, and transmits them to the ESP32 hardware over Bluetooth Low Energy.
+The Flutter application serves as a complete fitting interface for the Audio Enhancement Unit (AEU). It performs in-app audiometry, calculates personalized WDRC(Wide-Dynamic-Range-Compression) profiles, and transmits them to the ESP32 hardware over Bluetooth Low Energy.
 
 ### Technical Stack
 
@@ -56,14 +65,6 @@ The Flutter application serves as a complete fitting interface for the Audio Enh
 | Platform | Android |
 | Connectivity | Bluetooth Low Energy (`flutter_blue_plus`) |
 | Audio | PCM16 Tone Synthesis (`flutter_sound`) |
-
-### Screenshots
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/e2c75d09-eaa8-4648-beda-ab966a32196d" alt="Mobile App Screenshot" width="500">
-</p>
-
----
 
 ## RTL / Verification
 
@@ -87,7 +88,13 @@ make -C verification/sim SIM=verilator hearing-aid
 # Full paper flow
 make -C verification/sim SIM=verilator paper-signoff
 ```
+### Screenshots
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e2c75d09-eaa8-4648-beda-ab966a32196d" alt="Mobile App Screenshot" width="700">
+</p>
+
+---
 ---
 
 ## Contributors
