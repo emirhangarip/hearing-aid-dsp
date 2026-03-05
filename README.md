@@ -48,31 +48,9 @@ flutter run
 The Flutter application serves as a complete fitting interface for the Audio Enhancement Unit (AEU). It performs in-app audiometry, calculates personalized WDRC profiles, and transmits them to the ESP32 hardware over Bluetooth Low Energy.
 
 ### Features
-
 **WDRC Algorithm**
-Implements the full Wide Dynamic Range Compression fitting engine in Dart:
-- Compression Ratios (CR) and Threshold Kneepoints (TK) for 10 frequency bands
-- Gain Look-Up Tables (LUT) tailored to the user's specific hearing loss
-- Attack and Release times derived from HL/UCL measurements
-
 **Bluetooth Low Energy (BLE)**
-High-speed, reliable communication with the ESP32:
-- MTU negotiation for optimized throughput
-- Packet fragmentation for large LUT data transfers
-- Custom flow control to ensure data integrity
-
 **In-App Audiometry**
-- Pure-tone hearing tests from 250 Hz to 8 kHz
-- Measures Hearing Level (HL) and Uncomfortable Level (UCL)
-- Interactive audiogram chart visualization
-
-### Key Files
-
-| File | Purpose |
-|---|---|
-| `Mobile_App/lib/main.dart` | WDRC algorithm, UI, BLE state management |
-| `Mobile_App/pubspec.yaml` | Package dependencies (`flutter_blue_plus`, `flutter_sound`, `permission_handler`) |
-| `Mobile_App/android/app/src/main/AndroidManifest.xml` | Bluetooth, location & audio permissions (Android 12+) |
 
 ### Technical Stack
 
@@ -87,7 +65,7 @@ High-speed, reliable communication with the ESP32:
 ### Screenshots
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e2c75d09-eaa8-4648-beda-ab966a32196d" alt="Mobile App Screenshot" width="850">
+  <img src="https://github.com/user-attachments/assets/e2c75d09-eaa8-4648-beda-ab966a32196d" alt="Mobile App Screenshot" width="500">
 </p>
 
 ---
