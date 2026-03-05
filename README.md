@@ -95,7 +95,6 @@ make -C verification/sim SIM=verilator paper-signoff
 </p>
 
 ---
----
 
 ## Contributors
 
