@@ -117,3 +117,4 @@ make -C verification/sim SIM=verilator paper-signoff
 
 - İbrahim Umut Doruk
 - Emirhan Garip
+- Dooyoung Hah
