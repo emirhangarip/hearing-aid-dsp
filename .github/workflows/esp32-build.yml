@@ -1,0 +1,36 @@
+name: ESP32 Firmware Build
+
+on:
+  push:
+    paths:
+      - "esp32/**"
+      - ".github/workflows/esp32-build.yml"
+  pull_request:
+    paths:
+      - "esp32/**"
+      - ".github/workflows/esp32-build.yml"
+
+jobs:
+  build-esp32-firmware:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install PlatformIO Core
+        run: python -m pip install platformio
+
+      - name: Prepare LittleFS image contents
+        run: python esp32/prepare_fs.py
+
+      - name: Build ESP32 firmware
+        run: pio run -d esp32 -e esp32dev
+
+      - name: Build LittleFS image
+        run: pio run -d esp32 -e esp32dev -t buildfs

@@ -16,3 +16,10 @@ verification/sim/*.jou
 verification/sim/*.log
 verification/sim/*.pb
 verification/sim/dump.vcd
+
+# ESP32 PlatformIO outputs
+esp32/.pio/
+esp32/.piolibdeps/
+esp32/.vscode/
+esp32/.venv/
+esp32/data/

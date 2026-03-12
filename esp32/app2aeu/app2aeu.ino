@@ -464,7 +464,7 @@ void setup() {
   if (!LittleFS.begin(true)) {
     Serial.println("❌ LittleFS mount failed!");
   } else {
-    Serial.println("✅ LittleFS OK");
+    Serial.println("✅ LittleFS OK (auto-formats on first boot or after corruption)");
   }
   
   setup_spi();

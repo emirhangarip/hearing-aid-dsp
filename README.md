@@ -6,7 +6,7 @@ A complete end-to-end hearing aid system: RTL/DSP core verified in simulation, a
 
 ## Repository Structure
 
-```
+```text
 hearing-aid-dsp/
 ├── Mobile_App/          # Flutter/Dart Android application (WDRC fitting + BLE)
 ├── esp32/               # ESP32 firmware (BLE ↔ audio bridge)
@@ -32,15 +32,21 @@ flutter run
 
 ---
 
-### ESP32 Firmware (Seeed Studio XIAO ESP32C3)
+### ESP32 Firmware
 
-Requirements: Arduino IDE, ESP32 board package (`esp32` by Espressif)
+The maintained ESP32 workflow is documented in [`esp32/README.md`](esp32/README.md). It uses a pinned PlatformIO setup, a repo-local virtualenv, and automatic LittleFS provisioning for the default WDRC LUTs.
+
+From repo root:
+
 ```bash
-# In Arduino IDE:
-# Board   → "XIAO_ESP32C3"
-# Port    → your COM / ttyUSB port
-# Upload  → esp32/app2aeu.ino
+cd esp32
+./setup.sh
+./flash.sh /dev/ttyUSB0
+./monitor.sh /dev/ttyUSB0
 ```
+
+Arduino IDE remains a fallback path, but the PlatformIO flow is the repo-supported setup.
+
 ### RTL / Verification
 
 From repo root:
@@ -54,7 +60,7 @@ make -C sim SIM=verilator paper-signoff
 
 ## Mobile Application
 
-The Flutter application serves as a complete fitting interface for the Audio Enhancement Unit (AEU). It performs in-app audiometry, calculates personalized WDRC(Wide-Dynamic-Range-Compression) profiles, and transmits them to the ESP32 hardware over Bluetooth Low Energy.
+The Flutter application serves as a fitting interface for the Audio Enhancement Unit (AEU). It performs in-app audiometry, calculates personalized WDRC (Wide Dynamic Range Compression) profiles, and transmits them to the ESP32 hardware over Bluetooth Low Energy.
 
 ### Technical Stack
 
@@ -66,23 +72,16 @@ The Flutter application serves as a complete fitting interface for the Audio Enh
 | Connectivity | Bluetooth Low Energy (`flutter_blue_plus`) |
 | Audio | PCM16 Tone Synthesis (`flutter_sound`) |
 
-## ESP32 Part
+## ESP32 Firmware
 
-### Dependencies
+The ESP32 bridge firmware lives under [`esp32/`](esp32/). The default LUT image is generated from the RTL `.mem` files during flashing, so first-time users do not need to provision LUTs manually.
 
-| Library | Source | Notes |
-|---|---|---|
-| `BLEDevice` / `BLEServer` / `BLE2902` | ESP32 Arduino Core (Espressif) | Built-in with board package |
-| `SPI.h` | ESP32 Arduino Core (Espressif) | Built-in |
-| `LittleFS.h` | ESP32 Arduino Core (Espressif) | Built-in |
-| `driver/i2s.h` | ESP-IDF (via Arduino Core) | Built-in |
+### Documentation
 
-All libraries ship with the **ESP32 board package by Espressif** — no manual installs needed.
+| Document | Description |
+|---|---|
+| [esp32/README.md](esp32/README.md) | Setup, build, flash, serial monitor, Linux notes, and LittleFS LUT provisioning |
 
-In Arduino IDE → Board Manager, search `esp32` and install:
-```
-esp32 by Espressif Systems  ≥ 2.0.0
-```
 ## RTL / Verification
 
 ### Documentation Map
@@ -105,6 +104,7 @@ make -C verification/sim SIM=verilator hearing-aid
 # Full paper flow
 make -C verification/sim SIM=verilator paper-signoff
 ```
+
 ### Screenshots
 
 <p align="center">
